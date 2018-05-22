@@ -1,0 +1,98 @@
+<form id="pagerForm" method="post" action="__URL__/newresult">
+	<input type="hidden" name="status" value="${param.status}">
+	<input type="hidden" name="ballid" value="${param.ballid}" />
+	<input type="hidden" name="lotttime" value="${param.lotttime}" />
+	<input type="hidden" name="pageNum" value="1" />
+	<input type="hidden" name="numPerPage" value="${model.numPerPage}" />
+	<input type="hidden" name="orderField" value="${param.orderField}" />
+</form>
+<div class="pageHeader">
+	<form onsubmit="return navTabSearch(this);" action="__URL__/newresult" method="post">
+	<div class="searchBar">
+		<table class="searchContent">
+			<tr>
+			    <td  width="150">
+					对阵时间：<input type="text" id="lotttime" class="date" name="lotttime" value='{$lotttime}' readonly="true" size='15' />
+				</td>
+				<td width="150">
+					对阵编号：<input type="text" id="ballid" name="ballid" size='12' value="{$ballid}" />
+				</td>
+				<td>
+					<div style="float:left;width:auto;line-height:24px;">状态：</div>
+					<div style="float:left;width:100px;line-height:30px;">
+					<select class="combox" name="status" id="status">
+						<option value="1" <if condition="$status ==1 ">selected</if>>异常</option>
+						<option value="2" <if condition="$status ==2 ">selected</if>>正常</option>
+					</select>
+					</div>
+				</td>
+				
+				<td>
+					<div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div>
+				</td>
+			</tr>
+		</table>
+		<!--<div class="subBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div></li>
+			</ul>
+		</div>-->
+	</div>
+	</form>
+</div>
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+			<li><a class="edit" href="__URL__/edit?recid={lotttime_ballid}" target="dialog" rel="editresult" title="修改赛果"><span>修改赛果</span></a></li>
+		</ul>
+	</div>
+	<table class="table" width="100%" layoutH="100">
+		<thead>
+			<tr>
+				<th width="80" align="center">ID</th>
+				<th width="60" align="center">对阵编号</th>
+				<th width="150" align="center">对阵时间</th>
+				<th width="60" align="center">来源</th>
+				<th width="100" align="center">半场比分</th>
+				<th width="100" align="center">全场比分</th>
+				<th width="150" align="center">比赛时间</th>
+				<th width="150" align="center">入库时间</th>
+				<th width="100" align="center">赛果</th>
+				<th width="100" align="center">状态</th>
+				<th width="150" align="center" >操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		    <foreach name="resultlist" item="res">
+		    <tr target="lotttime_ballid" rel="{$res.lotttime}_{$res.ballid}" >
+				<td>{$res.id}</td>
+				<td>{$res.cnballid}</td>
+				<td>{$res.lotttime}</td>
+				<td>{$res.source}</td>
+				<td>{$res.half_score}</td>
+				<td>{$res.full_score}</td>
+				<td>{$res.match_starttime}</td>
+				<td>{$res.addtime}</td>
+				<td>{$res.result}</td>
+				<td>{$res.status}</td>
+				<td><a href='__URL__/view?recid={$res.lotttime}_{$res.ballid}' target="dialog" title="查看赛果">查看</a></td>
+			</tr>
+			</foreach>
+		</tbody>
+	</table>
+	<div class="panelBar">
+	<!--	<div class="pages">
+			<!--<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="20">20</option>
+				<option value="50">50</option>
+				<option value="100">100</option>
+				<option value="200">200</option>
+			</select>
+			<span>条，<span>共{$totalCount}条记录</span>
+		</div>
+		
+		<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="{$pageNumShown}" currentPage="{$currentPage}"></div>
+  -->
+	</div>
+</div>

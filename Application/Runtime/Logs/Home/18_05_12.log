@@ -1,0 +1,515 @@
+[ 2018-05-12T15:18:30+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006602s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007650s ]
+
+[ 2018-05-12T15:18:30+08:00 ] ::1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011433s ]
+NOTIC: [8] Undefined variable: msg /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007480s ]
+
+[ 2018-05-12T15:18:30+08:00 ] ::1 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2018-05-12T15:19:20+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+
+[ 2018-05-12T15:19:20+08:00 ] ::1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: msg /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005172s ]
+
+[ 2018-05-12T15:19:20+08:00 ] ::1 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2018-05-12T15:23:14+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+
+[ 2018-05-12T15:23:14+08:00 ] ::1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: msg /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2018-05-12T15:23:14+08:00 ] ::1 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2018-05-12T15:23:29+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2018-05-12T15:25:24+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2018-05-12T15:26:37+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2018-05-12T15:26:40+08:00 ] ::1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: msg /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2018-05-12T15:26:40+08:00 ] ::1 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2018-05-12T15:26:46+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2018-05-12T15:29:14+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'zhcwsystem'@'localhost' (using password: YES)
+
+[ 2018-05-12T15:29:28+08:00 ] ::1 /index.php/home/user/verify.html&timestamp=1526110168129
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+ERR: 非法操作:verify.html&timestamp=1526110168129
+
+[ 2018-05-12T15:29:29+08:00 ] ::1 /index.php/home/user/verify.html&timestamp=1526110169161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+ERR: 非法操作:verify.html&timestamp=1526110169161
+
+[ 2018-05-12T15:29:30+08:00 ] ::1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: msg /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2018-05-12T15:29:30+08:00 ] ::1 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2018-05-12T15:29:36+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'zhcwsystem'@'localhost' (using password: YES)
+
+[ 2018-05-12T15:32:49+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'zhcwsystem'@'localhost' (using password: YES)
+
+[ 2018-05-12T15:34:21+08:00 ] ::1 /index.php/home/user/verify.html&timestamp=1526110460999
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+ERR: 非法操作:verify.html&timestamp=1526110460999
+
+[ 2018-05-12T15:34:22+08:00 ] ::1 /index.php/home/user/verify.html&timestamp=1526110462535
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+ERR: 非法操作:verify.html&timestamp=1526110462535
+
+[ 2018-05-12T15:34:23+08:00 ] ::1 /index.php/home/user/verify.html&timestamp=1526110463024
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+ERR: 非法操作:verify.html&timestamp=1526110463024
+
+[ 2018-05-12T15:34:23+08:00 ] ::1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: msg /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-05-12T15:34:23+08:00 ] ::1 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2018-05-12T15:34:29+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'zhcwsystem'@'localhost' (using password: YES)
+
+[ 2018-05-12T15:34:38+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'zhcwsystem'@'localhost' (using password: YES)
+
+[ 2018-05-12T20:42:40+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006543s ]
+
+[ 2018-05-12T20:42:40+08:00 ] ::1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: msg /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008934s ]
+
+[ 2018-05-12T20:42:41+08:00 ] ::1 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000539s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003031s ]
+
+[ 2018-05-12T20:42:47+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'zhcwsystem'@'localhost' (using password: YES)
+
+[ 2018-05-12T20:47:00+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003377s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zy_admin' LIMIT 1   [ RunTime:0.0053s ]
+NOTIC: [8] iconv(): Unknown error (22) /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/UserController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004482s ]
+
+[ 2018-05-12T20:47:02+08:00 ] ::1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2018-05-12T20:47:04+08:00 ] ::1 /index.php/Home/Result/jingcai?_=1526129224104
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: currentPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 63 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 84 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 85 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 86 行.
+NOTIC: [8] Undefined variable: pageTotal /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 88 行.
+NOTIC: [8] Undefined variable: totalCount /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2018-05-12T20:47:05+08:00 ] ::1 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-05-11' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0652s ]
+SQL: SELECT `lotteryid`,`lotttime`,`ballid`,`source`,`half_score`,`full_score`,`match_starttime`,`result`,`addtime`,`status` FROM `tab_lottery_result` WHERE `lotttime` = '2018-05-11' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2018-05-12T20:47:09+08:00 ] ::1 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-04-30' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0452s ]
+SQL: SELECT `lotteryid`,`lotttime`,`ballid`,`source`,`half_score`,`full_score`,`match_starttime`,`result`,`addtime`,`status` FROM `tab_lottery_result` WHERE `lotttime` = '2018-04-30' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+

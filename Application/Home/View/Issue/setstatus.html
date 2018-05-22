@@ -1,0 +1,35 @@
+<div class="pageContent">
+	<form method="post" action="__URL__/setstatus" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+		<input type='hidden' name="act" value="set" />
+		<input type='hidden' name="lotteryid" value="{$lotteryid}" />
+		<input type='hidden' name="lotteryissue" value="{$lotteryissue}" />
+		<input type='hidden' name="condition" value="{$condition}" />
+		<div class="pageFormContent" layoutH="56">
+			<p style="width:100%;">
+				<label style="text-align:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玩法编号：</label>
+				<label style="width:200px;">{$lotteryid}</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;彩票期号：</label>
+				<label style="width:200px;">{$lotteryissue}</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">设置状态：</label>
+				<select class="combox" name="issuestatus" id="issuestatus">
+			    	<option value="0" <if condition="$issuestatus eq '0' ">selected="selected"</if>>正常销售</option> 
+					<option value="1" <if condition="$issuestatus eq '1' ">selected="selected"</if>>临时关闭</option>      
+        			<option value="-1" <if condition="$issuestatus eq '-1' ">selected="selected"</if>>预售状态</option>  
+        		</select>
+			</p>
+			
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li>
+					<div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

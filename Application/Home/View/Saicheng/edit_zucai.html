@@ -1,0 +1,85 @@
+
+<if condition="$token eq 'edit'">
+<div class="pageContent">
+	<form method="post" action="__URL__/act_zucai" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<input type='hidden' name="token" value="edit" />
+		<input type='hidden' name="act" value="saveform" />
+		<input type='hidden' name="lotteryid" value="{$match.lotteryid}" />
+		<input type='hidden' name="lotteryissue" value="{$match.lotteryissue}" />
+		<input type='hidden' name="ballid" value="{$match.ballid}" />
+		<input type='hidden' name="sendflag" value="{$match.send_flag}" />
+		<div class="pageFormContent" layoutH="56">
+			<p style="width:100%;">
+				<label style="text-align:right">玩法名称：</label>
+				<label style="width:200px;">{$match.lotteryname}</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">彩票期号：</label>
+				<label style="width:200px;">{$match.lotteryissue}</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">赛事名称：</label>
+				<input type="text" name="matchname" value="{$match.matchname}" size="30" />
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">对阵编号：</label>
+				<label style="width:200px;">{$match.ballid}</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">主场名称：</label>
+				<input type="text" name="mainname" value="{$match.mainname}" size="30" />
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">客场名称：</label>
+				<input type="text" name="custname" value="{$match.custname}" size="30" />
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">比赛时间：</label>
+				<input type="text" name="starttime" value="{$match.starttime}" size="30" />
+			</p>
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li>
+					<div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>
+
+<else/>
+<div class="pageContent">
+	<table class="table" width="100%" layoutH="100">
+		<thead>
+		<tr class="t">
+			<th width="100" align="center">玩法名称</th>
+			<th width="100" align="center">期号</th>
+			<th width="100" align="center">比赛编号</th>
+			<th width="100" align="center">比赛类别</th>
+			<th width="100" align="center">比赛时间</th>
+			<th width="100" align="center">主场名称</th>
+			<th width="100" align="center">客场名称</th>	
+			<eq name="token" value="local"><th width="100" align="center">详细信息</th></eq>
+		</tr>
+		</thead>
+		<tbody id="ball_content">
+		<foreach name="olist" item="ol">
+		<tr height="30px;">
+			<td>{$ol.lotteryname}</td>
+			<td>{$ol.lotteryissue}</td>
+			<td>{$ol.ballid}</td>
+			<td>{$ol.matchname}</td>
+			<td>{$ol.starttime}</td>
+			<td>{$ol.mainname}</td>
+			<td>{$ol.custname}</td>
+			<eq name="token" value="local">
+			<td><a href="__URL__/act_zucai?recid={$ol.lotteryid}_{$ol.lotteryissue}_{$ol.ballid}&token=edit" style="color:#0033ff" target="dialog" height="320" width="420" title="更新对阵信息">编辑</a></td>
+			</eq>
+		</tr>
+		</foreach>
+		</tbody>
+	</table>	
+</div>
+</if>

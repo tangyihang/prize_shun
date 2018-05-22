@@ -1,0 +1,2094 @@
+[ 2018-02-10T08:22:18+08:00 ] 106.11.225.4 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-02-10T08:22:18+08:00 ] 106.11.225.3 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: msg /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-02-10T09:40:45+08:00 ] 106.42.143.140 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+
+[ 2018-02-10T09:40:45+08:00 ] 106.42.143.140 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: msg /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-02-10T09:40:45+08:00 ] 106.42.143.140 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2018-02-10T09:40:55+08:00 ] 106.42.143.140 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zy_admin' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] iconv(): Unknown error (22) /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/UserController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2018-02-10T09:40:56+08:00 ] 106.42.143.140 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2018-02-10T09:41:05+08:00 ] 106.42.143.140 /index.php/Home/Result/jingcai?_=1518226865039
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 63 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 84 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 85 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 86 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 88 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-02-10T09:41:06+08:00 ] 106.42.143.140 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0516s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-02-10T09:41:08+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai?_=1518226867613
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 67 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 91 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 92 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 93 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 94 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 96 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-02-10T09:41:09+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003445s ]
+
+[ 2018-02-10T09:41:11+08:00 ] 106.42.143.140 /index.php/Home/Result/jingcai?_=1518226871053
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 63 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 84 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 85 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 86 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 88 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2018-02-10T09:41:33+08:00 ] 106.42.143.140 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)>2 LIMIT 0,20   [ RunTime:0.0640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-02-10T09:41:34+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai?_=1518226894332
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 67 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 91 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 92 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 93 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 94 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 96 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-02-10T09:41:36+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)>2 LIMIT 0,20   [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-02-10T11:12:19+08:00 ] 106.42.143.140 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+
+[ 2018-02-10T11:12:19+08:00 ] 106.42.143.140 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: msg /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2018-02-10T11:12:20+08:00 ] 106.42.143.140 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2018-02-10T11:12:26+08:00 ] 106.42.143.140 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zy_admin' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] iconv(): Unknown error (22) /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/UserController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-02-10T11:12:27+08:00 ] 106.42.143.140 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-02-10T11:12:28+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai?_=1518232347687
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 67 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 91 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 92 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 93 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 94 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 96 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-02-10T11:12:29+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-02-10T11:12:31+08:00 ] 106.42.143.140 /index.php/Home/Result/view?recid=2018-02-09_5307&act=edit&source=lc&_=1518232350582
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307'  [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307' LIMIT 1   [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: source /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 8 行.
+NOTIC: [8] Undefined index: first_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 10 行.
+NOTIC: [8] Undefined index: two_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 12 行.
+NOTIC: [8] Undefined index: three_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 14 行.
+NOTIC: [8] Undefined index: four_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 16 行.
+NOTIC: [8] Undefined index: add_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 18 行.
+NOTIC: [8] Undefined index: full_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2018-02-10T11:24:14+08:00 ] 39.165.138.146 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: msg /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2018-02-10T11:24:14+08:00 ] 39.165.138.146 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: msg /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-02-10T11:46:43+08:00 ] 106.42.143.140 /index.php/Home/Result/view?recid=2018-02-09_5307&act=edit&source=lc&_=1518234402606
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307'  [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307' LIMIT 1   [ RunTime:0.0111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: source /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 8 行.
+NOTIC: [8] Undefined index: first_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 10 行.
+NOTIC: [8] Undefined index: two_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 12 行.
+NOTIC: [8] Undefined index: three_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 14 行.
+NOTIC: [8] Undefined index: four_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 16 行.
+NOTIC: [8] Undefined index: add_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 18 行.
+NOTIC: [8] Undefined index: full_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2018-02-10T11:46:45+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2018-02-10T11:46:47+08:00 ] 106.42.143.140 /index.php/Home/Result/view?recid=2018-02-09_5307&act=edit&source=lc&_=1518234406574
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307'  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: source /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 8 行.
+NOTIC: [8] Undefined index: first_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 10 行.
+NOTIC: [8] Undefined index: two_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 12 行.
+NOTIC: [8] Undefined index: three_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 14 行.
+NOTIC: [8] Undefined index: four_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 16 行.
+NOTIC: [8] Undefined index: add_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 18 行.
+NOTIC: [8] Undefined index: full_score /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/17ef99e91e24448d11b2f5ae992f7421.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2018-02-10T11:49:50+08:00 ] 106.42.143.140 /index.php/Home/Result/edit_act_lc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 230 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 230 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307' AND `source` = 'from163 ' LIMIT 1   [ RunTime:0.0071s ]
+SQL: INSERT INTO `tab_lottery_result_lancai` (`lotteryid`,`lotttime`,`ballid`,`source`,`first_score`,`two_score`,`three_score`,`four_score`,`addtime`,`status`) VALUES ('0','2018-02-09','5307','from163 ','31:27','30:29','36:26','26:25','2018-02-10 11:49:50','-1') [ RunTime:0.0009s ]
+
+[ 2018-02-10T11:49:50+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-02-10T11:49:54+08:00 ] 106.42.143.140 /index.php/Home/Result/view?recid=2018-02-09_5307&act=edit&source=lc&_=1518234593933
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307'  [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307' LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2018-02-10T11:50:05+08:00 ] 106.42.143.140 /index.php/Home/Result/edit_act_lc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002991s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 230 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 230 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307' AND `source` = 'from163 ' LIMIT 1   [ RunTime:0.0107s ]
+NOTIC: [2] Illegal offset type in isset or empty /home/wwwroot/prize.zhiying365.com/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `tab_lottery_result_lancai` SET `first_score`='31:27',`two_score`='30:29',`three_score`='36:26',`four_score`='26:25',`add_score`='0:0',`full_score`='123:107' WHERE `lotttime` = '2018-02-09' AND `ballid` = '5307' AND `source` = 'from163 ' [ RunTime:0.0465s ]
+
+[ 2018-02-10T11:50:05+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-02-10T11:50:09+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)>2 LIMIT 0,20   [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-02-10T11:50:23+08:00 ] 106.42.143.140 /index.php/Home/Result/jingcai?_=1518234622786
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 63 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 84 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 85 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 86 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 88 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2018-02-10T11:50:24+08:00 ] 106.42.143.140 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0435s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2018-02-10T11:50:26+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai?_=1518234625826
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 67 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 91 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 92 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 93 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 94 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 96 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2018-02-10T11:50:27+08:00 ] 106.42.143.140 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-02-10T12:11:32+08:00 ] 115.61.38.222 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: msg /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2018-02-10T12:11:33+08:00 ] 115.61.38.222 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2018-02-10T12:11:38+08:00 ] 115.61.38.222 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zy_admin' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] iconv(): Unknown error (22) /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/UserController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-02-10T12:11:39+08:00 ] 115.61.38.222 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2018-02-10T12:11:40+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai?_=1518235898947
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 63 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 84 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 85 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 86 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 88 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-02-10T12:11:41+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2018-02-10T12:11:41+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-02-10T12:11:44+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0285s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0280s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-02-10T12:11:44+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-02-10T12:11:45+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai?_=1518235903904
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 67 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 91 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 92 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 93 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 94 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 96 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001797s ]
+
+[ 2018-02-10T12:11:46+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008611s ]
+
+[ 2018-02-10T12:11:46+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-02-10T12:11:48+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2018-02-10T12:11:49+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2018-02-10T14:03:32+08:00 ] 115.61.38.222 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: msg /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2018-02-10T14:03:32+08:00 ] 115.61.38.222 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2018-02-10T14:03:36+08:00 ] 115.61.38.222 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+NOTIC: [8] iconv(): Unknown error (22) /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/UserController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+
+[ 2018-02-10T14:03:39+08:00 ] 115.61.38.222 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: msg /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-02-10T14:03:39+08:00 ] 115.61.38.222 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2018-02-10T14:03:45+08:00 ] 115.61.38.222 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zy_admin' LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] iconv(): Unknown error (22) /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/UserController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2018-02-10T14:03:46+08:00 ] 115.61.38.222 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-02-10T14:03:47+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai?_=1518242625686
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 63 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 84 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 85 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 86 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 88 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008698s ]
+
+[ 2018-02-10T14:03:48+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0512s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-02-10T14:03:49+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-02-10T14:03:51+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0273s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0264s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2018-02-10T14:03:51+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004697s ]
+
+[ 2018-02-10T14:03:52+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai?_=1518242630508
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006471s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 67 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 91 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 92 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 93 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 94 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 96 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-02-10T14:03:52+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-02-10T14:03:53+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-02-10T14:03:55+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-02-10T14:03:56+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-02-10T14:04:51+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-02-10T14:04:52+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-02-10T14:04:58+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-02-10T14:04:58+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-02-10T14:05:01+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)>2 LIMIT 0,20   [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-02-10T18:34:42+08:00 ] 115.61.38.222 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: msg /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2018-02-10T18:34:43+08:00 ] 115.61.38.222 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005847s ]
+
+[ 2018-02-10T18:34:47+08:00 ] 115.61.38.222 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zy_admin' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] iconv(): Unknown error (22) /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/UserController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2018-02-10T18:34:48+08:00 ] 115.61.38.222 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2018-02-10T18:34:50+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai?_=1518258888153
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 63 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 84 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 85 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 86 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 88 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-02-10T18:34:51+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0475s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-02-10T18:34:51+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-02-10T18:34:54+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0279s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2018-02-10T18:34:54+08:00 ] 115.61.38.222 /index.php/Home/Result/jingcai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,half_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-02-10T18:34:55+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai?_=1518258893934
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 67 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 91 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 92 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 93 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 94 行.
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 96 行.
+NOTIC: [8] Undefined variable: totalCount /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: numPerPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: pageNumShown /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: currentPage /home/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2018-02-10T18:34:56+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-02-10T18:34:57+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-09' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-02-10T18:34:59+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-02-10T18:35:00+08:00 ] 115.61.38.222 /index.php/Home/Result/lancai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `tab_lottery_result_lancai` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tab_lottery_result_lancai` WHERE `lotttime` = '2018-02-10' GROUP BY lotttime,ballid,first_score,two_score,three_score,four_score,add_score,full_score HAVING count(*)<3 LIMIT 0,20   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: pageTotal /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+

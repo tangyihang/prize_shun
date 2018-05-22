@@ -1,0 +1,214 @@
+[ 2018-05-14T08:41:19+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004172s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002446s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003435s ]
+
+[ 2018-05-14T08:41:21+08:00 ] ::1 /index.php/Home/Result/lancai?_=1526258481320
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004721s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: currentPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 67 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 91 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 92 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 93 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 94 行.
+NOTIC: [8] Undefined variable: pageTotal /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 96 行.
+NOTIC: [8] Undefined variable: totalCount /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: pageNumShown /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+NOTIC: [8] Undefined variable: currentPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/4639d739043498a0d832a6053955b10f.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2018-05-14T08:41:22+08:00 ] ::1 /index.php/Home/Result/jingcai?_=1526258482019
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [2048] Declaration of Home\Controller\ResultController::saveToDB() should be compatible with Home\Controller\BaseController::saveToDB($model, $data, $type = 'basketball') /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: act /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/ResultController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: currentPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 6 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 7 行.
+NOTIC: [8] Undefined variable: resultlist /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 63 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 83 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 84 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 85 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 86 行.
+NOTIC: [8] Undefined variable: pageTotal /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 88 行.
+NOTIC: [8] Undefined variable: totalCount /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: numPerPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: pageNumShown /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+NOTIC: [8] Undefined variable: currentPage /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/08dbf0cc8beabc0370dff644d2c962d6.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2018-05-14T17:46:23+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+
+[ 2018-05-14T17:46:23+08:00 ] ::1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005509s ]
+NOTIC: [8] Undefined variable: msg /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003350s ]
+
+[ 2018-05-14T17:46:24+08:00 ] ::1 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2018-05-14T17:46:37+08:00 ] ::1 /index.php/home/user/verify.html&timestamp=1526291197298
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+ERR: 非法操作:verify.html&timestamp=1526291197298
+
+[ 2018-05-14T17:46:38+08:00 ] ::1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: msg /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Runtime/Cache/Home/5c9ee6d19cd41add49f97afe3aef0b25.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2018-05-14T17:46:38+08:00 ] ::1 /index.php/home/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2018-05-14T17:46:43+08:00 ] ::1 /index.php/home/user/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'zy_admin' LIMIT 1   [ RunTime:0.0057s ]
+NOTIC: [8] iconv(): Unknown error (22) /Users/tangyihang/Desktop/wwwroot/prize.zhiying365.com/Application/Home/Controller/UserController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-05-14T17:46:44+08:00 ] ::1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+

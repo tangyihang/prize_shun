@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link href="{$s_path}css/nmstyle.css" type="text/css" rel="stylesheet" />
+<title>mid</title>
+<script language="javascript">
+function display(){
+
+ if (parent.fream1.cols=="0,*"){
+   parent.fream1.cols="146,*";
+   document.getElementById("imgtp").src='{$s_path}images/tool1.jpg';
+ }else{
+  parent.fream1.cols="0,*";
+  document.getElementById("imgtp").src='{$s_path}images/tool.jpg';
+  }
+
+
+  //alert(parent.fream1.cols);
+}
+</script>
+</head>
+
+<body>
+<div class="nmtree_ctrl"><img src="{$s_path}images/tool1.jpg" id="imgtp" onclick="display()"  alt="" /></div>
+</body>
+</html>

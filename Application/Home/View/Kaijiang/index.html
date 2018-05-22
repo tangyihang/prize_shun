@@ -1,0 +1,112 @@
+
+<form id="pagerForm" method="post" action="__URL__/index">
+	<input type="hidden" name="act" value="query">
+	<input type="hidden" name="lotteryid" value="{$lotteryid}" />
+	<input type="hidden" name="kjtime" value="{$kjtime}" />
+	<input type="hidden" name="issue" value="{$issue}" />
+	<input type="hidden" name="pageNum" value="1" />
+	<input type="hidden" name="numPerPage" value="{$numPerPage}" />
+</form>
+<div class="pageHeader">
+	<form onsubmit="return navTabSearch(this);" action="__APP__/Home/Kaijiang/index" method="post">
+	<input type="hidden" name="act" value="query"/>
+	<div class="searchBar">
+		<table class="searchContent">
+			<tr>
+			   <td width="180">
+					<div style="float:left;width:auto;line-height:24px;">玩法名称：</div>
+					<div style="float:left;width:auto;line-height:30px;">
+					<select class="combox" name="lotteryid" id="kjlottery">
+						<option value="0" <eq name="lotteryid" value="0">selected="selected"</eq>>    ---全部---   </option>
+					 	<foreach name="caizhong" item="cz">
+					 	<option value="{$cz.value}" <if condition="$lotteryid eq $cz.value ">selected="selected"</if>>{$cz.name}</option>
+					 	</foreach>
+					</select>
+					</div>
+				</td>
+			    <td width="180">
+					彩票期号：<input type="text" id="issue" class="textInput" name="issue" value='{$issue}'  size='15' />
+				</td>
+				<td width="0">
+					<div style="float:left;width:auto;line-height:24px;">开奖时间：</div>
+					<div style="float:left;width:100px;line-height:30px;">
+					<!-- <input type="text" id="kjtime" class="date" name="kjtime" value='{$kjtime}' size='15' /> -->
+					<select class="combox" name="kjtime" id="kjtime">
+						<option value="today" <eq name="kjtime" value="today">selected="selected"</eq>>今天</option>
+					 	<option value="yesterday"  <eq name="kjtime" value="yesterday">selected="selected"</eq>>昨天</option>
+					 	<option value="all"  <eq name="kjtime" value="all">selected="selected"</eq>>全部</option>
+					</select>
+					</div>
+				</td>
+				<td>
+					<div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</form>
+</div>
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+			<li><a class="add" href="__URL__/add" target="navTab" rel="index" title="添加开奖信息"><span>添加</span></a></li>
+			<li><a class="edit" href="__URL__/edit?recid={lotteryid_issue}" target="navTab" rel="index" title="修改开奖信息"><span>修改</span></a></li>
+			<li><a class="delete" href="__URL__/delete?recid={lotteryid_issue}" target="ajaxTodo" rel="delete" title="确定要删除吗?"><span>删除</span></a></li>
+		</ul> 
+	</div>
+	<table class="table" width="100%" layoutH="113">
+		<thead>
+			<tr>
+				<th width="100" align="center">玩法名称</th>
+				<th width="80" align="center">期号</th>
+				<th width="130" align="center">开奖号码</th>
+				<th width="100" align="center">开奖时间</th>
+				<th width="100" align="center">当前期</th>
+				<th width="80" align="center">B2C状态</th>
+				<th width="80" align="center">B2B状态</th>
+				<th width="130" align="center">B2C操作</th>
+				<th width="130" align="center">B2B操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		    <foreach name="kjlist" item="kj">
+		    <tr target="lotteryid_issue" rel="{$kj.lotteryid}_{$kj.issue}"  height="30">
+				<td>{$kj.lotteryname}</td>
+				<td>{$kj.issue}</td>
+				<td>{$kj.lotterycode}</td>
+				<td>{$kj.opentime}</td>
+				<td><if condition="$kj.is_current_issue eq '1' ">是<else />否 | <a style="color:#0033ff" href="__URL__/setcurrentissue?recid={$kj.lotteryid}_{$kj.issue}" target="ajaxTodo"><span>设为当前期</span></a></if></td>
+				<td>{$kj.b2cstatus}</td>
+				<td>{$kj.b2bstatus}</td>
+				<!-- <td><a <if condition="$kj.b2cisend eq '1' ">href="javascript:void(0);"<else />href="__URL__/{$kj.b2coptype}?recid={lotteryid_issue}&token=tob2c"</if> target="{$kj.b2ctarget}" rel="b2c"><span class="{$kj.b2cstyle}"></span></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<a style="color:#0033ff" href="__URL__/view?recid={$kj.lotteryid}_{$kj.issue}&token=tob2c" target="navTab" rel="view" title="B2C开奖公告查询"><span>详情</span></a></td>
+				<td><a <if condition="$kj.b2bisend eq '1' ">href="javascript:void(0);"<else />href="__URL__/{$kj.b2boptype}?recid={lotteryid_issue}&token=tob2b"</if> target="{$kj.b2btarget}" rel="b2b"><span class="{$kj.b2bstyle}"></span></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<a style="color:#0033ff" href="__URL__/view?recid={$kj.lotteryid}_{$kj.issue}&token=tob2b" target="navTab" title="B2B开奖公告查询"><span>详情</span></a></td>
+				 -->
+				 <td><a <if condition="$kj.b2cisend eq '1' ">href="javascript:void(0);"<else />href="__URL__/{$kj.b2coptype}?recid={$kj.lotteryid}_{$kj.issue}&token=tob2c"</if> target="{$kj.b2ctarget}" title="您确定要操作吗？" rel="b2c"><span class="{$kj.b2cstyle}"></span></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<a style="color:#0033ff" href="__URL__/view?recid={$kj.lotteryid}_{$kj.issue}&token=tob2c" target="navTab" rel="view" title="B2C开奖公告查询"><span>详情</span></a>
+					</td>
+				<td><a <if condition="$kj.b2bisend eq '1' ">href="javascript:void(0);"<else />href="__URL__/{$kj.b2boptype}?recid={$kj.lotteryid}_{$kj.issue}&token=tob2b"</if> target="{$kj.b2btarget}" title="您确定要操作吗？" rel="b2b"><span class="{$kj.b2bstyle}"></span></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<a style="color:#0033ff" href="__URL__/view?recid={$kj.lotteryid}_{$kj.issue}&token=tob2b" target="navTab" title="B2B开奖公告查询"><span>详情</span></a></td>
+			</tr> 
+			</foreach>
+		</tbody>
+	</table>
+	<div class="panelBar">
+		<div class="pages">
+			<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="20" <if condition="$numPerPage eq '20'">selected="selected"</if>>20</option>
+				<option value="50" <if condition="$numPerPage eq '50'">selected="selected"</if>>50</option>
+				<option value="100" <if condition="$numPerPage eq '100'">selected="selected"</if>>100</option>
+				<option value="200" <if condition="$numPerPage eq '200'">selected="selected"</if>>200</option>
+			</select>
+			<span>共{$pageTotal}页</span>
+		</div>
+		<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="{$pageNumShown}" currentPage="{$currentPage}"></div>
+	</div>
+</div>

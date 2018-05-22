@@ -1,0 +1,41 @@
+<div class="pageContent">
+	<form method="post" action="__URL__/setendtime" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+		<input type='hidden' name="act" value="set" />
+		<input type='hidden' name="lotteryid" value="{$lotteryid}" />
+		<input type='hidden' name="lotteryissue" value="{$lotteryissue}" />
+		<input type='hidden' name="condition" value="{$condition}" />
+		<div class="pageFormContent" layoutH="56">
+			<p style="width:100%;">
+				<label style="text-align:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玩法编号：</label>
+				<label style="width:200px;">{$lotteryid}</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;彩票期号：</label>
+				<label style="width:200px;">{$lotteryissue}</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">代购期结时间：</label>
+				<input type="text" name="endtime1" value="{$issueinfo.endtime1}" />
+				<label style="width:200px;color:#999;">时间为分钟，如10，表示10分钟</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">单式方案截止时间：</label>
+				<input type="text" name="endtime2" value="{$issueinfo.endtime2}"  />
+				<label style="width:200px;color:#999;">时间为分钟，如10，表示10分钟</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">复式方案截止时间：</label>
+				<input type="text" name="endtime3" value="{$issueinfo.endtime3}" />
+				<label style="width:200px;color:#999;">时间为分钟，如10，表示10分钟</label>
+			</p>
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li>
+					<div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

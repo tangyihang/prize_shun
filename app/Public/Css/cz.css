@@ -1,0 +1,455 @@
+@charset "utf-8";
+/* CSS Document */
+body, ul, p {margin:0;padding:0;}
+*{ margin:0; padding:0}
+body {text-align:left;font-family:STHeiti, Arial; background:#f4f4f2;}
+h1,h2,h3,h4,h5 {margin:0; padding:0; font-size:100%}
+li {list-style:none;}
+em{ font-style:normal}
+a, a:visited {text-decoration:none;color:#000;}
+.clearfix:after {clear:both;height:0;overflow:hidden;display:block;visibility:hidden;content:".";}
+
+/***************************************************/
+.top_box{ width:100%;background:#fff; border-bottom:1px dashed #ccc;padding:.83em 0 .83em 0}
+.bottomdirection  
+{  
+    width:0;height:0;  
+    line-height:0;  
+    border-width:20px;  
+    border-style:solid;  
+    border-color: #A9DBF6 transparent transparent transparent;  
+}
+
+.topdirection  
+{  
+    width:0;height:0;  
+    line-height:0;  
+    border-width:20px;  
+    border-style:solid;  
+    border-color: transparent transparent #A9DBF6 transparent;  
+}
+/************************************************************/
+.top_surplus{ width:90%; margin:0 auto;}
+.top_surplus p{ font-size:18px; line-height:2rem}
+/**/
+.hall{clear:both;float:none}
+.hall a:last-child .hallList{border-bottom:0}
+.hallList{height:6.33rem;clear:both;float:none;position:relative;z-index:9}
+.hallList .logo{width:6em;height:100%;background-repeat:no-repeat;background-size:6em 3.5em;
+background-position:0 center;position:absolute;z-index:10;left:.4em;top:0}
+.hallList .text{margin-left:6.7em;padding-top:1.5rem}
+.hallList .text .title{font-size:1.33rem;color:#666; padding:0 0 10px 0}
+.hallList .text .intro{color:#929292; font-style:normal}
+.icon_wy{ background:url(zffs_05.png) no-repeat}
+.icon_cft{ background:url(zffs_11.png) no-repeat}
+.icon_cfb{ background:url(zffs_17.png) no-repeat}
+.icon_czk{ background:url(zffs_23.png) no-repeat}
+/**/
+.icon_fs{ width:100%; height:61px;padding:15px 0 0 0;}
+.logo_fs{ width:90%; height:61px; margin:0 auto;background:url(fs_05.png) no-repeat center; background-size:5.2em 3em}
+.input_but{height:400px; margin:0 auto;padding:0.83rem 0.83rem 0}
+.inp_sr{ width:100%; height:50px;background:url(bg1_03.png) repeat-x;margin:0 0 1.2em 0}
+.inp_sr input{ border:1px solid #bec3c7;
+border-radius:3px; width:99%; height:50px; background:transparent; padding:0 0 0 1%}
+.check_rz label{ font-size:12px}
+.btnBox{ width:100%; height:67px; padding:10px 0 10px 0;}
+.btnBox a{ display:block; width:100%;display:block; border-radius:8px;
+text-align:center; line-height:2.5em; font-size:24px; color:#fff}
+.explain_word { width:100%; padding:0 0 10px 0}
+.explain_word p{ color:#666; padding:0 0 10px 0; font-size:20px; line-height:30px}
+.explain_word p span{ color:#1789ca}
+/******************************************/
+.right_czcg{margin:0 auto; background:url(right_03.png) no-repeat left center; padding: 0 0 0 80px}
+.right_czcg p{ line-height:1.5rem; }
+.right_czcg p.cz_money{ font-size:24px; color:#666;}
+.right_czcg p.cz_money span{ color:#e10000}
+.right_czcg p.weif{ font-size:20px; color:#c8c8c8}
+
+/**/
+.right_suc{height:6.33rem;position:relative;z-index:9; padding:0; margin:0}
+.icon_right{ background:url(right_03.png) no-repeat center;}
+.right_suc .logo{width:67px;height:100%;position:absolute;z-index:10;left:.6rem;top:0}
+.right_suc .text{margin-left:75px;padding-top:2.5rem; color:#666}
+
+.right_suc .text .title{font-size:1.33rem;color:#666; padding:0 0 10px 0}
+.right_suc .text .title span{ color:#e10000}
+.right_suc .text .intro{color:#c8c8c8; font-style:normal}
+
+.two_a_link{padding:0 15px; text-align:center;}
+.two_a_link a{ width:215px;height:67px; display:inline-block;float:left;text-align:center; 
+background:url(bg2_07.png) repeat-x;border-radius:8px; line-height:67px; font-size:24px; color:#fff;}
+.two_a_link .left_a{}
+.two_a_link .right_a{ margin:0 0 0 20px}
+.others {text-align:center; color:#5f5f5f }
+.others1{ padding:.8em 0 0 0}
+.others a { width:38%;line-height:2.5em; font-size:24px; color:#fff; margin:0 5px 0 5px}
+.grayBtn { display:inline-block; height:2.5em;border-radius:6px; }
+.others a.huise{ background:#d2dbe5; color:#000}
+/**/
+.lost{ width:100%; font-size:24px;height:45px; background:url(lose_03.png) no-repeat center; background-size:2.75em 2.75em;line-height:45px;text-align:center; padding:100px  0 0 0}
+.others a.continu{ width:80%; background:#e0372b}
+
+
+/**********/
+.Proclamation{ padding:0 0.6em 0; margin:0 auto; height:auto}
+.tab_t{ height:60px;padding:0 0.83em 0;border-bottom:4px solid #b5cfdc; background:#dce0e0}
+.tab_t ul{ height:64px; position:relative; z-index:2}
+.tab_t li{ height:64px;line-height:64px; font-size:24px;cursor:pointer;color:#000;width:120px; text-align:center;color:#ffff; float:left;}
+
+.cont_no{ display:none}
+.list_pro{margin:0 auto}
+.list_pro li{height:68px; line-height:32px;border-bottom:1px solid #dededc; margin:0.5em 0 0 0;box-shadow: 1px 1px 2px #888888;background:#fff; padding:0 0 0 .4em; color:#343435;}
+.list_pro li:first-child{margin:0;}
+
+.list_pro li p.name_list{ padding:0.3em 0 0 0;font-size:16px;}
+.name_list .blue_w{ color:#1a98e1}
+.name_list .red_w{ color:#e84c3d}
+.list_pro li p.time_list{ font-size:14px}
+.tab_t li.fcbj{ background:#fff; height:60px; border-bottom:4px solid #1789ca;}
+
+/**********/
+.details{ width:88.75%; margin:0 auto}
+.details p{ text-align:center}
+.details p.title_top{ font-size:24px; color:#1789ca; padding:0.3em 0 0.3em 0}
+.details p.from_time{ font-size:16px; padding:0 0 0.8em 0}
+.details p.from_time .red_w{ color:#e34033}
+.details p.fabu{ text-align:left; line-height:24px; padding:0.8em 0 0 0; text-indent:24px}
+.red_bg{ background:#e0372b}
+.blue_bg{ background:#227ccd}
+
+/********手机验证
+**********************************************************/
+#top_header{  color:#fff; font-size:1.75rem; 
+text-align:center;position:relative; z-index:10; }
+#top_header .top_cont{height:3.5rem; line-height:3.5rem; background:#1789ca;box-shadow:0 2px 2px 0 #c7c7c5}
+#top_header h1{ font-weight:bold; font-size:28px;}
+#top_header h1 span{ display:inline-block; line-height:1.5em;padding:0 .75em 0 .75em; background:url(sj_03.png) no-repeat bottom right}
+
+
+#top_header .goBack{ display:block; height:3.5rem;
+position:absolute; left:0; top:0; border-right:1px solid #157db9;width:3.67rem; z-index:11; background:#1a98e1 url(ht_03.png) no-repeat center}
+.content_box{ padding:0.83rem 0.83rem 0}   
+.content_box2{ padding:0}             
+.tetle_p{ color:#cd1a0c; height:24px; line-height:24px; font-size:24px; border-bottom:1px solid #e9e9e9; padding:12px 0 12px 0}
+.input_yz{ border-top:1px solid #fff;padding:0.83em 0 0}
+.input_phon{ width:100%; height:50px;}
+.input_phon_cont{ width:65%; display:inline-block; float:left;border-radius:3px;height:50px;background:url(bg1_03.png) repeat-x;border:1px solid #bec3c7;}
+.input_phon_cont input{display:inline-block; height:50px; font-size:18px;width:100%;background:transparent; border:none}
+.have_yz{ float:right; display:inline-block; width:27%; border-radius:2px;height:55px; text-align:center; line-height:55px; background:#a6a6a5; margin:0 0 0 1%}
+
+.input_yzm{ border-radius:3px;height:50px;background:url(bg1_03.png) repeat-x;border:1px solid #bec3c7;margin:0.83em auto 0.83em;}
+.input_yzm input{ width:100%;height:50px; border:none; background:transparent; font-size:18px}
+.sure_bd{height:54px; margin:0 auto; text-align:center;background:url(bg2_07.png) repeat-x; display:block; color:#fff;  border-radius:5px; font-size:24px;line-height:55px}
+.inp_sr_xgmm{ margin:0.83em 0 0.83em 0}
+/*******dltkaijiangxiangqing
+*****************/
+.no_bg_dd{ padding:.8em .8em .8em .4em; background:#fff; margin:0 0 .3em 0; border-bottom:1px solid #dededc; box-shadow:0 0 1px 0 #f4f4f2}
+.no_bg_dd a{background:url(yjt_03.png) no-repeat right center; display:block}
+.no_bg_dd h2{ font-size:18px;color:#a5a8aa; padding:.2em 0 .2em 0}
+.no_bg_dd h2 em{ color:#171719; font-size:22px;}
+.no_bg_dd .top_bet{ margin:0 auto; text-align:center}
+.smallRedball,.smallBlueball{ width:2em; height:2em; text-align:center;line-height:2em;border-radius:1em;box-shadow:0 0 0 1px #CCCCCC;display:inline-block; margin:0 .2em 0 .2em; color:#fff}
+.smallRedball{ background:#BC102D}
+.smallBlueball{ background:#0E52A7}
+
+.dat_list{ padding:.8em 1.5em .8em .4em;background:#fff;margin:0 0 .3em 0; border-bottom:1px solid #dededc; box-shadow:0 0 1px 0 #f4f4f2}
+.dat_list a{background:url(yjt_03.png) no-repeat right center; display:block}
+.dat_list h2{ font-size:18px;color:#a5a8aa; padding:.2em 0 .2em 0}
+.dat_list h2 em{ color:#171719; font-size:22px;}
+.dat_list .top_bet{ margin:0 auto; text-align:center}
+.Redball,.Blueball{ width:1.8em; height:1.8em; text-align:center;line-height:1.8em;display:inline-block; margin:0 .3em 0 .3em; color:#fff}
+.Redball{ color:#ba152b}
+.Blueball{ color:#1a98e1}
+.table_cont{ padding:.8em; text-align:center;}
+.table_cont table{ width:100%; border:1px solid #e2e2e2; border-collapse:collapse}
+.table_cont table tr td{ border:1px solid #e2e2e2; height:45px;}
+.table_cont table thead tr{ background:#fffef5}
+.table_cont table thead tr td{ color:#1789ca}
+.table_cont table thead tr td span{ padding:0 0 0 30px;}
+.table_cont table thead tr td span.bqxl{ background:url(ss_03.png) no-repeat center left;}
+.table_cont table thead tr td span.jcjj{ background:url(tb_03.png)  no-repeat center left;}
+.table_cont table td.red_color{ color:#ba152b}
+.table_cont table td.blue_color{ color:#1789ca}
+/***********************************************/
+.buttom_an{ width:100%; height:2em; background:#0576b7; line-height:2em; color:#fff; font-size:28px;text-align:center; display:inline-block;margin:0 auto}
+.buttom_an a{ display:inline-block; color:#fff; width:100%;}
+/****shangseqiutouzhu
+***********************************************/
+.gameTip{ line-height:2rem; margin:1rem 0 0 0;}
+.gameTip2{margin:0;}
+.gameTip p span{ color:#ba152b}
+.gameTip .rockTip{ display:block; padding:0 .2rem 0 2.5rem; background:url(yiy_03.png) no-repeat .4em center; background-size:2em auto}
+.gameTip .r_box{ float:right; color:#999; padding:0 0.83rem 0 0; font-size:12px}
+.ballCon{border-top:1px solid #ccc}
+.ballCon ul{ padding:.83rem 0 0 1.6rem}
+.ballCon li{ float:left; height:2.58rem; padding:0 .6rem .6rem 0; width:2.58rem; }
+.ballCon li span{ cursor:pointer;line-height:1.68em; border-radius:1.29em;box-shadow:0 0 0 1px #CCCCCC;text-align:center;display:block; color:#900; font-size:1.5rem; font-weight:600}
+.blueBalls li span{ color:#0E52A7}
+
+.ballCon li.active span{ background:#BC102D;box-shadow:0 0 0 1px #BC102D; color:#fff}
+.blueBalls li.active span{ background:#0E52A7;box-shadow:0 0 0 1px #0E52A7; color:#fff}
+
+.gameTip .l_box{ float:left; color:#666}
+.daty_check{}
+.at_parent_daty{ position:relative; padding:0 .8em 0 .8em; text-align:center; margin:0 auto}
+.at_parent_daty span{ display:inline-block;color:#898e91; font-size:18px;padding:.3em 0 .2em 0; height:100%;}
+.at_parent_daty p{padding:.3em 0 .3em 0; float:left}
+.at_parent_daty p em{ padding:0 .3em 0 0; color:#b2122a; font-size:18px}
+.at_parent_daty p em.blue_w{ color:#1789ca}
+.gameTip p{ padding:0 0 0 .8em; color:#898e91}
+.eight_dat{overflow:hidden;transition: height 1s;-moz-transition: height 1s; /* Firefox */-webkit-transition: height 1s; /* Safari and Chrome */
+  -o-transition: height 1s; /* Opera */ border-bottom:1px solid #ccc;}	
+
+/***/
+
+
+
+/*****************************************/
+.at_parent_daty1{padding:0 .8em 0 .6em;}
+.click_up{display:block;width:30px; float:right;height:100%;position:absolute;right:1em;top:0;background:url(jt_up_06.png) no-repeat center}
+.click_down{display:block;width:30px; float:right;height:100%;position:absolute;right:1em;top:0; background:url(down.png) no-repeat center}
+
+     
+/****************/
+.choose_wey_bet{ text-align:center; margin:0 auto; width:100%; height:45px;}
+.choose_wey_bet a{ display:inline-block;width:130px; font-size:20px;margin:0 auto;height:45px; line-height:45px; border:1px solid #ccc; background:#fff;text-align:center;}
+
+
+/***/
+#buttom_fixd{ position:absolute; bottom:0}
+.bottomBox{ position:absolute;width:100%; border-top:1px solid #ccc; z-index:100; background:#fff;overflow: hidden;}
+.operateBox{line-height:3.08rem; background:#fff; width:100%; overflow:hidden; font-size:1.16rem}
+.operateBox span{ display:inline-block; width:50%; margin-right:-0.416rem; border-right:1px solid #ccc; text-align:center}
+.operateBox span input{ width:42%; margin:0 0.416rem; text-align:center; line-height:2rem;height:2rem; border:1px solid #ccc; -webkit-box-shadow:0 0 0 0 #ccc,0 0 0 0 #fff inset;box-shadow:0 0 0 0 #ccc,0 0 0 0 #fff inset;-webkit-border-radius:1px;border-radius:1px;}
+.moreOperate{ line-height:2.92rem; border-top:1px solid #ccc; text-align:center; background:#fff}
+.moreOperate input{ vertical-align:middle}
+
+.betResult{ background:#171719; text-align:center; bottom:0; width:100%;
+ line-height:3.1rem; font-size:1.16rem; display:block; position:fixed; z-index:11;position:relative;}
+.betResult_text{ margin:0 6.4rem; overflow:hidden; white-space:nowrap; color:#fff; 
+                font-size:1.16rem; line-height:3.5rem; text-align:center;}
+.betResult .graybtn{ position:absolute; left:0; top:0; background:#323235; color:#fff}
+.betResult .redbtn{ position:absolute; right:0; top:0;background:#1789ca; color:#fff}
+.graybtn, .redbtn{ color:#fff; display:inline-block; font-size:1.33rem; line-height:3.5rem;
+ padding:0 1.25rem;font-weight:600}
+ 
+ 
+
+ 
+/****xiazaiyemian
+*****************************/
+.logo_top_W{ height:50px; padding:2.3em 0 2.3em;border-bottom:1px solid #e3e6e6}
+.logo_top_W span{ display:inline-block; width:50%; float:left; text-align:center}
+.logo_top_W .logo_img{}
+.logo_top_W .word_w{ padding:.6em 0 0 0}
+
+
+
+.download{ height:65px; padding:.83em}
+.download ul{ margin:0 auto; width:300px;}
+.download ul li{ float:left; width:50%; text-align:center; }
+.download ul li a{ display:block}
+.download ul li img{ width:96%; height:65px;}
+
+.eSuperMap{ height:400px; padding:0 .8em 0 2em;}
+.esuper_word{ width:100%; height:48px; margin:0 0 .8em 0;line-height:48px; border-bottom:1px solid #e3e6e6; border-top:1px solid #e3e6e6}
+.eSuperMap h2{ font-weight:100; color:#525252; padding:.3em 0 .3em 0; font-size:20px}
+.eSuperMap p{ padding:0 0 .9em 0; color:#525252; font-size:16px}
+.down_footer{ width:100%; color:#727171}
+.down_footer p{ width:100%; text-align:center; line-height:26px}
+.down_footer p a{ color:#007BED} 
+.down_footer p.line_p1{ font-size:18px}
+.down_footer p.line_p2{ font-size:14px}
+
+/*****tab_add_bet-jiesuan
+************************/
+.tab_add_bet{ width:100%;text-align:center; margin:.3em 0}
+.tab_add_bet a{ display:inline-block; font-size:16px; width:35%; padding:0 0 0 15px;height:35px;line-height:35px;border-radius:5px; border:1px solid #b5b5b6; background:#f4f4f2 url(hj_05.png) 10px 12px no-repeat}
+.tab_add_bet a.click_add{ background:#1a98e1 url(hj_03.png) no-repeat 9px 12px; color:#fff}
+.tablist{ margin:0 .8em 1em; border:1px solid #b5b5b6;border-radius:6px;}
+.betList{ clear:both; border-bottom:1px solid #ccc; float:none; height:3.9em; position:relative; z-index:9}
+.betList_last{ border:none}
+.close_dq{ width:30px; height:100%; background:url(close_03.png) no-repeat center; position:absolute; left:.83em; top:0}
+.text_bet{margin-left:4em;padding-top:.6em}
+.bet_qiu{ padding:0 0 .3em 0;}
+.bet_qiu em{ color:#ba152b; margin:0 .8em 0 0}
+.bet_qiu em.blue_bet{ color:#1a98e1}
+
+/******gerenzhongxin
+******************************************/
+.section_bg_fff{ background:#fff}
+.personage{ height:6em; position:relative; background:#f6fdfd; clear:both; padding:1em .8em 1em .4em}
+.head_portrait{ width:5.5em; height:5.5em; z-index:10; position:absolute; border:6px solid #fff; border-radius:58px}
+.head_portrait img{ width:5.5em; height:5.5em;border-radius:2.7em}
+.my_Ledger{ margin:.7em 0 0 6.5rem}
+.header_name{ color:#171719; font-size:18px}
+.reserve_money,.winnerPaid{ padding:.2em 0 .2em 0; font-size:14px; color:#ba152b}
+.reserve_money em,.winnerPaid em{ color:#898e91}
+.three_an{ height:41px; padding:1em; text-align:center; background:#f6fdfd}
+.three_an a{ width:25%; height:41px; background:#1a98e1; display:inline-block; line-height:41px; color:#fff; border-radius:3px}
+.bet_cont{ width:100%; height:74px;}
+.bet_cont em{ display:block; width:121px;padding:0 1.5em 0 1.5em;height:9px; overflow:hidden; background:url(xj_03.png) no-repeat center}
+.my_bet{ padding:0 1.5em 0 1.5em;height:65px; background:#61c5f7; text-align:center; color:#fff}
+.my_bet span{ display:block; width:121px; height:65px; background:#1a98e1; line-height:65px;}
+.link_an_three{ width:100%; height:310px;}
+.link_an_three ul{ padding:1em 0 0 1.75em;}
+.link_an_three ul li{ border-bottom:1px solid #e3e6e6; height:58px; position:relative; cursor:pointer}
+.link_an_three ul li:first-child{ border-top:1px solid #e3e6e6}
+.link_an_three ul li a{ display:block; height:58px; line-height:58px}
+.link_an_three ul li span{ height:58px; width:2em;position:absolute; display:block;right:0; top:0; margin:0 1.75em 0 0;background:url(yjt_03.png) no-repeat center}
+/*******touzhuxiangqin 
+****************************************/
+.four_link_a{ width:100%; height:38px; text-align:center; padding:1em 0 1em 0}
+.four_link_a a{ display:inline-block; height:38px; line-height:38px; margin:0 .2em 0 .2em;padding:0 .6em 0 .6em; border:1px solid #b5b5b6; border-radius:4px}
+.four_link_a a.dq_a{ background:#1a98e1; color:#fff}
+.list_bet{ padding:0 0 0 .5em}
+.list_bet .list_one{height:80px; border-bottom:1px solid #e3e6e6} 
+.list_one p{ height:40px; line-height:40px}
+.list_one p span{ float:left; clear:both}
+.list_one p span i{ color:#006098; font-style:normal}
+.list_one p em{ float:right; padding:0 .5em 0 0}
+.list_one p em b{ color:#d7000f}
+.look_more{ text-align:center; width:100%; height:80px; line-height:80px;}
+.look_more a{ display:block; height:80px; color:#898e91}
+/******index
+*************************/
+.top_down{ padding:.8em; background:#ddddde; height:74px; border-bottom:1px solid #b5b5b6}
+.top_down span,.top_down a,{ display:inline-block;}
+.top_down span { float:left; width:74px; height:74px; background:url(ico_03.png) no-repeat}
+.top_down a{ width:100px; height:28px; line-height:28px;border:1px solid #b5b5b6; background:#fefefe; float:right; text-align:center; margin:1em 0 0 0; display:block}
+
+.index_logo{ height:50px; line-height:50px; padding:.8em; background:#f4f4f2; border-bottom:1px solid #b5b5b6}
+.index_logo a{ display:inline-block; color:#3e3a39;float:left;width:142px; height:50px; background:url(logo_03.png) no-repeat}
+.index_logo span{ display:inline-block; float:right; color:#3e3a39}
+.index_logo span b{ display:inline-block; height:30px; line-height:30px;border-right:1px solid #d6d6d6; padding:0 .5em 0 0}
+.big_img{ width:100%; height:99px;}
+.big_img img{ width:100%; height:99px;}
+.index_a_link{ text-align:center; padding:0 .5em 0 .5em; height:48px; margin:1em 0 1em 0}
+.index_a_link .four_aa{text-align:center;}
+
+.index_a_link a{ display:inline-block; font-size:16px;text-align:center;border:1px solid #b5b7b7; height:48px; width:22%;line-height:48px;}
+.four_bet{ margin:0 .8em 1em .8em; height:auto;border:1px solid #b5b7b7; border-radius:3px}
+.four_bet ul{}
+.four_bet ul li{ width:50%; display:inline-block; float:left}
+.four_bet ul li a{ display:block; padding:24px 5px; height:72px}
+.four_bet ul li a h3,.four_bet ul li a .font12{text-align:left; margin:0 0 0 54px;}
+.four_bet ul li a h3{ line-height:28px; font-size:18px; padding:.3em 0 0 0}
+.four_bet ul li a .font12{ line-height:20px; font-size:14px;}
+.four_bet ul li:nth-of-type(1) a,.four_bet ul li:nth-of-type(3) a{border-right:1px solid #b5b5b6; }
+.four_bet ul li:nth-of-type(1) a,.four_bet ul li:nth-of-type(2) a{ border-bottom:1px solid #b5b5b6; }
+/*.logoimg{ width:50px; height:50px; background:url(logo_ico_05.png) no-repeat; float:left;}*/
+.logoimg{width:50px;height:50px;float:left; 
+background-image:url(logo_ico_05.png);
+ background-size:50px auto; 
+ background-repeat:no-repeat;}
+
+
+.logoimg_dlt{ background-position:0 -101px}
+.logoimg_115{ background-position:0px -51px}
+.logoimg_3d{ background-position:0 -152px}
+.index_list{ border:1px solid #b5b5b6; border-radius:4px; height:auto; margin:0 .8em 1em .8em}
+.index_list ul{ width:100%; height:auto;}
+.index_list ul li{ border-bottom:1px solid #e3e6e6; height:58px; position:relative; cursor:pointer}
+.index_list ul li:last-child{ border-bottom:none}
+.index_list ul li a{line-height:58px; padding:0 0 0 .5em; color:#3e3a39; display:block; font-size:14px;}
+
+
+
+.index_list ul li span{ height:58px; width:.8em;position:absolute; display:block;right:0; top:0; margin:0 .4em 0 0;background:url(yjt_03.png) no-repeat center; background-size:0.75em auto}
+
+/**bd_phone
+********************/
+.bd_phone{ padding:.8em .3em 0 .3em; text-align:center; height:50px}
+.bd_phone span{display:inline-block; width:50%; float:left}
+.logo_img_bd{width:142px; height:50px;}
+.word_sm{ color:#1789ca; font-size:14px; padding:15px 0 0 0}
+
+/*****log in
+******************/
+.for_get_pwd{ padding:.8em 0 0 1em; font-size:24px;}
+.for_get_pwd a{ color:#1789ca}
+.if_help{ text-align:center; color:#1789ca; padding:.8em 0 0 0}
+.xieyi{ text-align:center; color:#666;}
+.xieyi b{ color:#df362a}
+/********renwu
+***************************************************/
+.date_end{ font-size:20px;width:100%; text-align:center; border-bottom:1px solid #dededc;height:2em; line-height:2em; background:#fff}
+.date_end em{ color:#ba152b}
+.ballCon ul.renwu_bet{ overflow:hidden;padding:0.83em 0 0 1em}
+.ballCon ul.renwu_bet li{ height:70px; text-align:center}
+.ballCon ul.renwu_bet li em{ display:block; margin:6px 0 0 0; color:#898e91; font-size:20px;}
+.left_chooes{ width:60px; height:90px;float:left; position:relative; left:1em; margin:.83em 1em 0 0}
+.left_chooes span{ display:block; width:52px; height:39px; background:url(xh_03.png) no-repeat;}
+.left_chooes em{ font-size:16px; color:#2e2e2e; display:block; padding:12px 0 0 0}
+.choose_cz{ display:none;position:absolute;z-index:2;height:auto; left:45%; top:0; margin:0 0 0 -150px;width:295px;font-size:18px; text-align:center; padding:0 .5em .3em 1em; background:#FFF}
+
+.choose_cz a{ display:block; text-align:center; width:90px; height:30px; line-height:30px;float:left; border:1px solid #ccc; margin:0 .3em .4em 0}
+.choose_cz p{ width:288px; text-align:left; float:left; color:#000; padding:.5em 0 .5em 0; color:#1789ca; font-weight:600}
+
+/****bet_details
+*********************/
+.bet_details{}
+
+.bet_details h2{ padding:0 0 0 .5em; font-weight:100;font-size:18px;border-bottom:1px solid #dededc;box-shadow:0 0 0 1px #ececea; background:#fff; line-height:45px;}
+.bet_details h2 b{font-size:24px}
+.bet_details h2 em{ font-weight:100; color:#be3342}
+
+.bet_details p{ padding:0 .8em .8em .8em; height:24px; line-height:24px; font-size:18px; color:#525252}
+.bet_details p.bot_p{ border-bottom:1px solid #e9e9e9}
+.bet_details p span{ float:left; display:inline-block}
+.bet_details p em{ float:right; display:inline-block}
+.red_color{ color:#ba152b}
+.but_an2{ padding:0 .8em}
+.but_an2 a{ display:inline-block; width:50%; text-align:center; height:55px;line-height:55px; color:#fff; font-size:24px;}
+.but_an2 a.abolish{ background:#4c4c4c}
+.but_an2 a.submit_Order{ background:#e0382c}
+.my_acco_unt{ padding:.4em .8em .8em .8em; border-top:1px solid #ffffff}
+.my_acco_unt span{ display:inline-block; width:100%; font-size:20px; line-height:24px; padding:.4em 0 0 0}
+.my_acco_unt label{ padding:.4em 0 0 0;display:inline-block; width:100%;font-size:20px;}
+.my_acco_unt label b{ font-weight:100;}
+.my_acco_unt label input{ border:1px solid #e3e3e3; background:#fff; width:128px; height:28px;}
+.Pay{ width:100%; border-top:1px solid #e9e9e9}
+.Pay a{ display:block; padding:0 .8em 0 0;border-bottom:1px solid #dededc;
+text-align:center;font-size:24px;height:67px; line-height:67px; background:#fff;}
+/*.Pay .PayCenter{ background:#fff url(fs_11.png) no-repeat 10px center ; background-size:5em 3em}*/
+.Pay .PayCenter span{ display:inline-block; float:left; padding:0 0 0 5em; margin:0 0 0 .8em;background:url(fs_11.png) no-repeat}
+.Pay .PayCenter em{display:inline-block; float:right; height:100%; width:0.75em; background:url(yjt_03.png) no-repeat center; background-size:0.6em auto}
+.Pay .PayCenter span.rechargeable_card{ background:url(fs_23.png) no-repeat}
+
+/***Betting_xq**************************/
+.Betting_xq{ width:100%; padding:0 0 130px 0}
+.Betting_xq h2{ font-size:24px;height:45px; border-bottom:1px solid #dededc;box-shadow:0 0 1px 0 #ececea;background:#fff; line-height:50px; padding:0 0 0 .8em}
+.base_p{ padding:.8em 0 .8em 1em; font-size:18px;}
+.base_p p{ line-height:30px}
+.base_p p span{ color:#dd3328}
+.Lottery_num,.my_num,.chase_num{ padding:.8em; font-size:18px}
+.Lottery_num em{ display:inline-block; margin:0 .2em 0 .2em; color:#e32626}
+.Lottery_num em.blue_q{ color:#1789ca}
+.my_num{color:#666}
+.my_num em,.my_num span{ display:inline-block; margin:0 .2em 0 .2em; }
+.my_num em.red_num{ color:#e32626}
+.my_num em.blue_num{ color:#1789ca}
+.chase_num em,.chase_num span{display:inline-block;}
+.chase_num em.red_num{ color:#e32626}
+.chase_num em.blue_num{ color:#1789ca}
+.bet_Status{ padding:0 .8em 0 .8em; height:18px; line-height:18px;}
+.bet_Status span{ padding:0 0 0 2em}
+.bet_Status span.red_num{color:#e32626}
+
+
+
+.footer_an{ width:100%; height:55px;}
+.footer_an a{ display:block; width:50%; color:#fff; font-size:24px;height:55px; float:left; line-height:55px; text-align:center}
+.continue_bet{ background:#4c4c4c}
+.ssq_bet{ background:#da2e24}
+
+
+
+
+
+
+
+
+
+
+

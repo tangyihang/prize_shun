@@ -1,0 +1,91 @@
+<script type="text/javascript">
+$(function(){
+	$('#zucai_lottery').change(function(){
+		var $value = $(this).attr('value');
+		if($value == '324' || $value == '441'){
+			var list = ['','','','','','','','','','','','','',''];
+		}else if($value == '325'){
+			var list = ['','','',''];
+		}else if($value == '326'){
+			var list = ['','','','','','','','','','','',''];
+		}
+		var trval = '';
+		$.each(list,function(k,v){
+			trval += '<tr height="30"><td><p style="width:100%"><input type="text" name="ballid_'+k+'" class="required textInput valid readonly" style="float:none" value="'+(k+1)+'" size="30" readonly/></p></td>'
+					+ '<td><p style="width:100%"><input type="text" name="matchname_'+k+'" class="required textInput valid" style="float:none" value="" size="30"/></p></td>'
+					+ '<td><p style="width:100%"><input type="text" name="starttime_'+k+'" class="required date" style="float:none" value="" size="30" datefmt="yyyy-MM-dd HH:mm"/></p></td>'
+					+ '<td><p style="width:100%"><input type="text" name="mainname_'+k+'" class="required textInput valid" style="float:none" value="" size="30"/></p></td>'
+					+ '<td><p style="width:100%"><input type="text" name="custname_'+k+'" class="required textInput valid" style="float:none" value="" size="30"/></p></td></tr>'
+		});
+		$('#ball_content').each(function() {
+	        var table = this;
+	        var rows = table.rows;
+	        for (var i = rows.length - 1; i >= 0; i --) {
+	            if (!(/t/i.test(rows[i].className))) {
+	                table.deleteRow(rows[i].rowIndex);
+	            }
+	        }
+	    }).append(trval);
+	});
+});
+</script>
+<style type="text/css">
+*{ margin:0; margin:0}
+.my_tab{ text-align:center; border-collapse:collapse}
+.my_tab tr{ border:1px solid #d0d0d0}
+.my_tab tr td,.my_tab tr th{border:1px solid #d0d0d0}
+.my_tab tr td input{}
+</style>
+<!-- #7f9db9 -->
+<div class="pageContent"> <!--return validateCallback(this, navTabAjaxDone);-->
+	<form onsubmit="return validateCallback(this, navTabAjaxDone);" id="validateform" class="pageForm required-validate" action="__URL__/act_zucai" method="post" novalidate="novalidate">
+		<input type="hidden" name="token" value="add" />
+		<div class="pageFormContent" layoutH="56">
+			<p style="width:100%"><strong>{$kjinfo.cz_name}&nbsp;录入对阵信息</strong></p>
+			<p style="width:100%">
+				<label style="width:100px;text-align:right;">玩法名称：</label>
+				<select class="combox" name="lotteryid" id="zucai_lottery">
+					 <!-- <foreach name="cz_zucai" item="cz">
+					 	<option value="{$cz.value}" >{$cz.name}</option>
+					 </foreach>
+					  -->
+					  <option value="324">胜负彩</option>
+					  <option value="326">半全场</option>
+					  <option value="325">四场进球</option>
+				</select>
+			</p>
+			<p style="width:100%">
+				<label style="width:100px;text-align:right;">彩票期号：</label>
+				<input type="text" name="lotteryissue" alt="" value="" size="20" class="required textInput valid" />
+			</p>
+			<table width="100%" border="1" cellspacing="0" cellpadding="0" class="my_tab" id="ball_content">
+				<thead>
+			 	<tr height="30" class="t">
+			    	<th>比赛编号</th>
+			    	<th>比赛类别</th>
+			    	<th>比赛时间</th>
+			    	<th>主场名称</th>
+			    	<th>客场名称</th>
+			  	</tr>
+				</thead>
+			  	<foreach name="football" item="foot">
+			    <tr height="30">
+					<td><p style="width:100%"><input type="text" name="ballid_{$key}" class="required textInput valid readonly" style="float:none" value="{$key+1}" size="30" readonly /></p></td>
+					<td><p style="width:100%"><input type="text" name="matchname_{$key}" class="required textInput valid" style="float:none" value="" size="30"/></p></td>
+					<td><p style="width:100%"><input type="text" name="starttime_{$key}" class="required date" style="float:none" value="" size="30" datefmt="yyyy-MM-dd HH:mm"/></p></td>
+					<td><p style="width:100%"><input type="text" name="mainname_{$key}" class="required textInput valid" style="float:none" value="" size="30"/></p></td>
+					<td><p style="width:100%"><input type="text" name="custname_{$key}" class="required textInput valid" style="float:none" value="" size="30"/></p></td>
+				</tr>
+				</foreach>
+			</table>
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li>
+					<div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

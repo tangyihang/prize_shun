@@ -1,0 +1,40 @@
+
+<script type="text/javascript">
+$(function(){
+	$('#cron_supply').click(function(){
+		var postmsg = {lotteryid:$('#sup_lottery').val(),kj_issue:$('#sup_kj_issue').val()};
+		$.post('__URL__/cron_supply',postmsg,function(res){ 	
+			var data = eval('(' + res + ')');
+			alert(data.message);
+		});
+	});
+});	
+</script>
+
+<div class="pageContent">
+	<div layouth="56" class="pageFormContent" style="height: auto; overflow: auto;">
+		<!-- 开奖信息 -->
+		<p style="width:100%"><span style=" margin:0 0 0 30px"><strong>{$kjinfo.cz_name}&nbsp;传统足彩开奖信息补录</strong></span></p>
+		<p style="width:100%;display:none;">
+			<label style="width:100px;text-align:right;">玩法名称：</label>
+			<select class="combox" name="lotteryid" id="sup_lottery">
+				<foreach name="cz_zucai" item="cz">
+					<option value="{$cz.value}">{$cz.name}</option>
+				</foreach>
+			</select>
+		</p>
+		<p style="width:100%">
+			<label style="width:100px;text-align:right;">开奖期号：</label>
+			<input type="text" name="kj_issue" id="sup_kj_issue" alt="" value="" size="20" class="required textInput valid" />
+		</p>
+			
+		<p width="100%">
+			<label style="width:100px;text-align:right;">&nbsp;</label>
+			<input type="button" name="cron_supply" id="cron_supply" value="抓取">
+		</p>
+			
+	</div>
+</div>
+
+ 
+ 

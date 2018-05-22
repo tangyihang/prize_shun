@@ -1,0 +1,29 @@
+﻿<div class="pageContent">
+	<form method="post" action="__URL__/edit_act" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<div class="pageFormContent" layoutH="56">
+		   <input type="hidden" name="lotttime" value="{$lotttime}">
+		   <input type="hidden" name="ballid" value="{$ballid}">
+		   <foreach name="Rlist" item="RL">
+			<p style="width:100%">
+				<label style="width:40px;">来源：</label>
+				<input name="source[{$RL.id}]" type="text" size="10" value="{$RL.source}"  class="textInput3"/>
+				<label style="width:40px;">半场：</label>
+			    <input name="half[{$RL.id}]" type="text" size="10" value="{$RL.half_score}" class="textInput3"/>
+				<label style="width:40px;">全场：</label>
+			    <input name="full[{$RL.id}]" type="text" size="10" value="{$RL.full_score}" class="textInput3"/>
+			  <label style="width:50px;">修改项：</label>
+			    <input name="isRight[{$RL.id}]" type="checkbox" size="10" class="textInput3"/>
+			</p>
+			</foreach>
+			<p style="width:100%;">注：来源分别来自 500wan ,fromOkooo,from163 缺少哪一项填对应项，录入时一定仔细对照，方提交</p>
+		</div>
+		<if condition="$act eq 'edit'">
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">修改</button></div></div></li>
+			</ul>
+		</div>
+		<else />
+		</if>
+	</form>
+</div>

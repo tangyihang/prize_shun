@@ -1,0 +1,111 @@
+<form id="pagerForm" method="post" action="__APP__/Home/Kaijiang/index">
+	<input type="hidden" name="status" value="${param.status}">
+	<input type="hidden" name="lotteryid" value="${param.lotteryid}" />
+	<input type="hidden" name="kjtime" value="${param.kjtime}" />
+	<input type="hidden" name="issue" value="${param.issue}" />
+	<input type="hidden" name="pageNum" value="1" />
+	<input type="hidden" name="numPerPage" value="${model.numPerPage}" />
+	<input type="hidden" name="orderField" value="${param.orderField}" />
+</form>
+<div class="pageHeader">
+	<form onsubmit="return navTabSearch(this);" action="__APP__/Home/Kaijiang/index" method="post">
+	<div class="searchBar">
+		<table class="searchContent">
+			<tr>
+			   <td width="180">
+					<div style="float:left;width:auto;line-height:24px;">玩法名称：</div>
+					<div style="float:left;width:auto;line-height:30px;">
+					<select class="combox" name="lotteryid" id="lotteryid">
+					<option value="0" <if condition="$status ==1 ">selected</if>>    ---全部---   </option>
+					 
+						<option value="1" <if condition="$status ==2 ">selected</if>>双色球</option>
+						<option value="2" <if condition="$status ==2 ">selected</if>>3D</option>
+						<option value="3" <if condition="$status ==2 ">selected</if>>七乐彩</option>
+						<option value="4" <if condition="$status ==2 ">selected</if>>大乐透</option>
+						<option value="5" <if condition="$status ==2 ">selected</if>>七星彩</option>
+						<option value="6" <if condition="$status ==2 ">selected</if>>排列三</option>
+						<option value="7" <if condition="$status ==2 ">selected</if>>排列五</option>
+					
+					</select>
+					</div>
+				</td>
+			    <td  width="180">
+					彩票期号：<input type="text" id="issue" class="textInput" name="issue" value='{$issue}'  size='15' />
+				</td>
+				<td  width="180">
+					开奖时间：<input type="text" id="kjtime" class="date" name="kjtime" value='{$kjtime}' size='15' />
+				</td>
+				<td>
+					<div style="float:left;width:auto;line-height:24px;">状态：</div>
+					<div style="float:left;width:100px;line-height:30px;">
+					<select class="combox" name="status" id="status">
+						<option value="1" <if condition="$status ==1 ">selected</if>>异常</option>
+						<option value="2" <if condition="$status ==2 ">selected</if>>未开奖</option>
+						<option value="2" <if condition="$status ==2 ">selected</if>>开奖</option>
+					</select>
+					</div>
+				</td>
+				
+				<td>
+					<div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</form>
+</div>
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+			<li><a class="add" href="__URL__/edit?recid={lotttime_ballid}" target="dialog" rel="editresult" title="修改"><span>添加</span></a></li>
+		    <li><a class="edit" href="__URL__/edit?recid={lotttime_ballid}" target="dialog" rel="editresult" title="修改"><span>修改</span></a></li>
+		    
+		</ul>
+	</div>
+	<table class="table" width="100%" layoutH="100">
+		<thead>
+			<tr>
+				<th width="80" align="center">玩法名称</th>
+				<th width="60" align="center">期号</th>
+				<th width="100" align="center">开奖号码</th>
+				<th width="100" align="center">开期时间</th>
+				<!--<th width="100" align="center">期结时间</th>
+				<th width="100" align="center">官方期结时间</th>-->
+				<th width="60" align="center">状态</th>
+				<th width="60" align="center">B2B状态</th>
+				<th width="60" align="center">B2C状态</th>
+				<th width="150" align="center" >操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		    <foreach name="kjlist" item="kj">
+		    <tr target="lotttime_ballid" rel="{$res.lotttime}_{$res.ballid}" >
+				<td>{$kj.lotteryname}</td>
+				<td>{$kj.issue}</td>
+				<td>{$kj.lotterycode}</td>
+				<td>{$kj.opentime}</td>
+				<td>{$kj.status}</td>
+				<td>{$kj.status}</td>
+				<td>{$kj.status}</td>
+				<td><a href='__URL__/view?recid={$res.lotttime}_{$res.ballid}' target="todoAjax" title="查看赛果">推送到B2C</a>
+				<a href='__URL__/view?recid={$res.lotttime}_{$res.ballid}' target="todoAjax" title="查看赛果">推送到B2B</a></td>
+			</tr>
+			</foreach>
+		</tbody>
+	</table>
+	<div class="panelBar">
+	<!--	<div class="pages">
+			<!--<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="20">20</option>
+				<option value="50">50</option>
+				<option value="100">100</option>
+				<option value="200">200</option>
+			</select>
+			<span>条，<span>共{$totalCount}条记录</span>
+		</div>
+		
+		<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="{$pageNumShown}" currentPage="{$currentPage}"></div>
+  -->
+	</div>
+</div>

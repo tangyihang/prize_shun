@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link href="{$s_path}css/shstyle.css" rel="stylesheet" />
+<title>登录</title>
+<style>
+body{ background:url({$s_path}images/sh_dl_bg.jpg) repeat-x;}
+</style>
+<script language="javascript"  src="{$s_path}js/jquery1.4.2.js"></script>
+        <script language="javascript">
+            $(document).ready(function(){
+                var msg = '{$msg}';
+                if(msg!=''){
+                    alert(msg);
+                }
+
+                $("#a1").click( function() { //alert('dd');
+                    var timestamp = (new Date()).valueOf();
+                    $("#imageVerify").attr({ src:"/common/imageVerify.php?timestamp="+timestamp , alt: "验证码" });
+                });
+
+                $("#imageVerify").click( function() { //alert('dd');
+                    var timestamp = (new Date()).valueOf();
+                    $("#imageVerify").attr({ src:"/common/imageVerify.php?timestamp="+timestamp , alt: "验证码" });
+                });
+
+                $("#sub").click(function(){
+                    if($("#uname").val()==''){
+                        alert('用户名不能为空');
+                        return false;
+                    }
+
+                    if($("#pwd").val()==''){
+                        alert('密码不能为空！');
+                        return false;
+                    }
+                    if($("#verify").val()==''){
+                        alert('验证码不能为空！');
+                        return false;
+                    }
+                    $("#register").submit();
+                });
+
+                $("body").bind('keyup',function(event){
+                if (event.keyCode == 13)
+                {
+                	if($("#uname").val()==''){
+                        alert('用户名不能为空');
+                        return false;
+                    }
+                    if($("#pwd").val()==''){
+                        alert('密码不能为空！');
+                        return false;
+                    }
+                    if($("#verify").val()==''){
+                        alert('验证码不能为空！');
+                        return false;
+                    }
+                    $("#register").submit();
+                }
+            });
+            })
+        </script>
+</head>
+
+<body>
+<div class="w955">
+<div class="header">
+<div class="logo"><img src="{$s_path}images/sh_dl_logo.jpg" width="135" height="63" /></div>
+<div class="logotitle"></div>
+</div>
+</div>
+<div class="w955">
+<div class="bg01"></div>
+<div class="bg02">
+<div class="jj">
+ <h2>华阳彩票购彩平台代理系统</h2>
+ <p>华阳彩票购彩平台包括目前国内主流彩票彩种，玩法丰富、出票实时、领奖方便，采用全面的安全解决方案和管理规范，在销售模式、管理模式、风险管理、标准化四个方面均具国内先进水平，为广大客户提供优质的无纸化彩票服务。</p>
+</div>
+<div class="loginbox">
+ <form id="register" name="register" action="index.php" method="post">
+     <input type="hidden" name="token" id="token" value="dopost" />
+ <div class="con01">
+     <span class="left">用户名</span>
+     <span class="right"><input style="width:2px" name="uname" id="uname" value="{$uname}" type="text" /></span>
+ </div>
+ <div class="con01">
+     <span class="left" style="width:50px">财务密码</span>
+     <span class="right"><input style="width:2px" name="pwd" id="pwd" type="password" /></span>
+ </div>
+ <div class="con01">
+     <span class="left">验证码</span>
+     <span class="right">
+         <input style="width:80px" name="verify" id="verify" type="text" />
+         <img id="imageVerify" src="../../common/imageVerify.php" width="64" height="22" align="absmiddle" />
+         <a id="a1" href="#">换一张</a>
+     </span>
+ </div>
+ <div class="con02">输入上图中的字符</div>
+ <div class="con02"><input class="dlbutton" name="sub" id="sub" type="button" value="登 录" /></div>
+  <div class="con03">咨询电话 ：400-630-1806</div>
+  </form>
+</div>
+</div>
+</div>
+<div class="dlfooter">Copyright @ 20 caimincun.com  All Right Reserved    华阳彩票  版权所有</div>
+</body>
+</html>

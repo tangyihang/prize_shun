@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>main</title>
+<link href="{$s_path}css/nmstyle.css" type="text/css" rel="stylesheet" />
+<link href="{$s_path}css/jquery.ui.all.css" type="text/css" rel="stylesheet" />
+<link href="{$s_path}css/jquery.ui.datepicker.css" type="text/css" rel="stylesheet" />
+<script language="javascript" src="{$s_path}js/jquery1.4.2.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.core.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.widget.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.datepicker.js"></script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+    $("#startdate").datepicker({ dateFormat:"yy-mm-dd"});
+    $("#enddate").datepicker({ dateFormat:"yy-mm-dd"});
+	  
+	$('#queryBtn').click(function(){
+        $('#token').val('dopost');
+        mainform.submit();
+    });
+	$('#exportData').click(function(){
+        $('#token').val('export');
+        mainform.submit();
+    });
+});
+</script>
+</head>
+<body>
+<div class="dangq"><span>会员交易明细</span></div>
+<div class="conbox">
+<form name="mainform" method="post">
+ <table class="contop"  border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+	      <div class="conditionbox">
+	      <span class="red_b">会员名:</span>
+	      <input class="input_90" name="lowername" type="text" value="{$lowername}" />&nbsp;<span class="red_b">交易时间:</span>
+	      <input id="startdate" class="input_90" name="startdate" value="{$startdate}" type="text" />
+	      <span class="red_b">到:</span>
+	      <input id="enddate" class="input_90" name="enddate" value="{$enddate}" type="text" />
+	      <input id="token" name="token" value="dopost" type="hidden" />
+	      </div>
+      </td>                          <!--onclick="mainform.submit();"-->
+      <td><div style="float:right;"><span class="yellow_button" id="queryBtn">查询</span><span class="yellow_button" id="exportData" >导出数据</span></div></td>
+    </tr>
+</table>
+  
+<table width="0%" class="con_t01" border="0" cellspacing="1" cellpadding="0" style="display: {$isshow.css}">
+  <tr>
+    <th height="29">序号</th>
+    <th>会员名</th>
+    <th>福彩销量</th>
+    <th>体彩销量</th>
+    <th>足彩销量</th>
+    <th>高频销量</th>
+    <th>单场销量</th>
+    <th>销量合计</th>
+    <th>当前期方案</th>
+    </tr>
+  {foreach name=datalist item=dl from=$datalist}
+  <tr>
+    <td class="doub">{$dl.id}</td>
+    <td class="doub">{$dl.username}</td>
+    <td class="doub">{$dl.fuvalues}</td>
+    <td class="doub">{$dl.sportsvalues}</td>
+    <td class="doub">{$dl.footvalues}</td>
+    <td class="doub">{$dl.highvalues}</td>
+    <td class="doub">{$dl.othersvalues}</td>
+    <td class="doub">{$dl.totalvalues}</td>
+    <td class="doub">{$dl.plan}</td>
+  </tr>
+  {/foreach}
+</table>
+<table  class="fy_tab" border="0" align="right" cellspacing="0" cellpadding="0" style="display: {$isshow.css}">
+  <tr>
+    <td width="30%" align="left"></td>
+    <td width="50%" align="center">
+	    <input class="fydiv" type="submit" name="first" value="首页" />
+	    <input class="fydiv" type="submit" name="prev" value="上一页" />
+	    <span id="pindex" class="num01">{$pindex}</span>
+	    <input name="goindex" type="text" class="fyinput" value="{$goindex}" />
+	    <input class="fydiv" type="submit" name="gopage" value="GO" />
+	    <input class="fydiv" type="submit" name="next" value="下一页" />
+	    <input class="fydiv" type="submit" name="last" value="尾页" />
+	    <span class="num01">共{$ptotal}页</span>
+	    <input type="hidden" name="pindex" value="{$pindex}"></input>
+	    <input type="hidden" name="ptotal" value="{$ptotal}"></input>
+    </td>
+    <td align="right">&nbsp;</td>
+  </tr>
+</table>
+<div class="warning">{$isshow.text}</div>
+</div>
+</form>
+</div>
+
+</body>
+</html>

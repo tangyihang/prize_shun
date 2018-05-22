@@ -1,0 +1,46 @@
+@charset "gb2312";
+/* CSS Document */
+
+* {
+	 LIST-STYLE-TYPE: none;  LIST-STYLE-IMAGE: none; margin:0; padding:0;
+}
+BODY {
+	FONT-FAMILY: "宋体"; COLOR: #000; FONT-SIZE: 12px
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.blue {
+	COLOR: #336699
+}
+.blue.a:hover {
+	COLOR: #336699
+}
+.w955{ width:955px; height:100%; overflow:hidden; margin:0 auto;}
+.header{ clear:both; margin:74px 0 0px;}
+.header .logo{ float:left; padding:0 20px 0 16px;}
+.header .logotitle{ float:left; font-size:21px; font-family:"黑体"; color:#999; font-weight:bold; height:50px; line-height:50px; border-left:1px solid #999; padding:3px 0 0 20px;}
+.bg01{background:url(../images/sh_dl_10.jpg) no-repeat; height:29px; width:955px; margin:18px 0 0 0 !important}
+.bg02{background: url(../images/sh_dl_12.jpg) no-repeat; height:373px; width:955px; }
+.bg02 .jj{ float:left; width:585px; margin-top:240px; }
+.bg02 .jj h2{ color:#ff4800;font-size:18px; font-family:"黑体"; font-weight: normal; padding-left:40px; }
+.bg02 .jj p{ padding:5px 26px; line-height:24px; font-size:14px; color:#333; text-indent:2em}
+.bg02 .loginbox{ float:left; margin:60px 0px 0 36px; }
+.con01{ clear:both; width:320px; margin:12px 0; height:100%; overflow:hidden}
+.con01 span{ float:left}
+.con01 span.left{width:50px; padding:0 8px 0 ;line-height:30px; text-align:right}
+.con01 span.right input{ background:url(../images/inputbg.jpg) repeat-x; height:28px; line-height:28px; font-size:14px; border:1px solid #838383; }
+.dlbutton{ background:url(../images/dlbuttonbg.gif) no-repeat; height:33px; width:114px; font-size:14px; font-weight:bold; border:0px;}
+.con02{ clear:both;  margin:8px 0 12px 50px; height:100%; overflow:hidden; color:#666}
+.con03{ clear:both;  padding:50px 0 12px 50px; height:100%; overflow:hidden; color:#ff4800;font-size:17px; font-family:"黑体"; font-weight: bold; }
+.dlfooter{ clear:both; border-top:1px solid #e6e6e6; margin:100px auto 10px; width:955px; padding:20px 0; line-height:20px; text-align:center}
+

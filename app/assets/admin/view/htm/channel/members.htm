@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+<link href="{$s_path}css/nmstyle.css" type="text/css" rel="stylesheet" />
+<link href="{$s_path}css/jquery.ui.all.css" type="text/css" rel="stylesheet" />
+<link href="{$s_path}css/jquery.ui.datepicker.css" type="text/css" rel="stylesheet" />
+<script language="javascript" src="{$s_path}js/jquery1.4.2.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.core.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.widget.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.datepicker.js"></script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+    $("#startdate").datepicker({ dateFormat:"yy-mm-dd"});
+    $("#enddate").datepicker({ dateFormat:"yy-mm-dd"});
+	  
+	$('#queryBtn').click(function(){
+        $('#token').val('dopost');
+        mainform.submit();
+    });
+	$('#exportData').click(function(){
+        $('#token').val('export');
+        mainform.submit();
+    });
+  });
+  
+function copy(txt){
+	var clipBoardContent=txt;
+	window.clipboardData.setData("Text",clipBoardContent); //赋值
+	alert("复制成功!"); //弹出提示
+}
+	
+	
+
+	
+</script>
+</head>
+<body>
+<div class="dangq"><a href="#">我的会员</a></div>
+<div class="conbox">
+<!--
+<table class="contop"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><div class="conditionbox">
+  <span class="red_b">我的代理地址:</span>
+      <input id="agentUrl" type="text" style="width:260px;" value="{$agentUrl}" />
+    </div></td>
+    <td><div style="float:right;"><span class="yellow_button" onclick="copy($('#agentUrl').val())" >复制</span></div></td>
+  </tr>
+</table>-->
+<form name="mainform" method="post">
+<table class="contop"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><div class="conditionbox">
+  	<span class="red_b">会员名:</span>
+    <input class="input_90" name="lowername" value="{$lowername}" type="text" />
+    <span class="red_b">会员状态:</span>
+      <select name="mstatus" class="select_90" >
+      	<option value="">所有会员</option>
+        <option value="1" {$status_1}>已完善资料</option>
+        <option value="0" {$status_0}>未完善资料</option>
+        <option value="2" {$status_2}>他人会员</option>
+      </select>
+      &nbsp;&nbsp;<span class="red_b">加入时间:</span>
+      <input class="input_90" id="startdate" name="startdate" value="{$startdate}" type="text" />
+      <span class="red_b">到:</span>
+      <input class="input_90" id="enddate" name="enddate" value="{$enddate}" type="text" />
+      <input id="token" name="token" value="dopost" type="hidden" />
+    </div></td>                     <!--onclick="mainform.submit();"-->
+    <td><div style="float:right;"><span class="yellow_button"  id="queryBtn">查询</span><span class="yellow_button" id="exportData" >导出数据</span></div></td>
+  </tr>
+</table>
+  
+<table width="0%" class="con_t01" border="0" cellspacing="1" cellpadding="0"  style="display: {$isshow.css}">
+  <tr>
+    <th>序号</th>
+    <th>会员名</th>
+    <th>加入时间 </th>
+    <th>帐户余额(元)</th>
+    <th>会员状态</th>
+    </tr>
+  {foreach name=datalist item=dl from=$datalist}
+  <tr>
+    <td class="doub">{$dl.id}</td>
+    <td class="doub">{$dl.username}</td>
+    <td class="doub">{$dl.addtime}</td>
+    <td class="doub">{$dl.actvalue}</td>
+    <td class="doub">{$dl.memberstatus}</td>
+  </tr>
+  {/foreach}
+</table>
+<table  class="fy_tab" border="0" align="right" cellspacing="0" cellpadding="0" style="display: {$isshow.css}">
+  <tr>
+    <td width="30%" align="left"></td>
+    <td width="50%" align="center">
+	    <input class="fydiv" type="submit" name="first" value="首页" />
+	    <input class="fydiv" type="submit" name="prev" value="上一页" />
+	    <span id="pindex" class="num01">{$pindex}</span>
+	    <input name="goindex" type="text" class="fyinput" value="{$goindex}" />
+	    <input class="fydiv" type="submit" name="gopage" value="GO" />
+	    <input class="fydiv" type="submit" name="next" value="下一页" />
+	    <input class="fydiv" type="submit" name="last" value="尾页" />
+	    <span class="num01">共{$ptotal}页</span>
+	    <input type="hidden" name="pindex" value="{$pindex}"></input>
+	    <input type="hidden" name="ptotal" value="{$ptotal}"></input>
+    </td>
+    <td align="right">&nbsp;</td>
+  </tr>
+</table>
+<div class="warning">{$isshow.text}</div>
+</form>
+</div>
+
+</body>
+</html>

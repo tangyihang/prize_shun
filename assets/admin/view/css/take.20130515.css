@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+a{ color:#333; text-decoration:none}
+img{ border:none}
+ul{ list-style:none}
+body{ font-family:"宋体"; font-size:12px;}
+.take_mange{ width:100%; height:780px; background:url(../images/bg_01.jpg) repeat}
+.take_cont{ width:401px; height:440px; margin:0 auto; padding:120px 0 0 0;}
+.take_name{ width:401px; height:35px; float:left;}
+.take_form{ width:401px; height:400px; float:left; background:url(../images/bg_03.gif) no-repeat; margin:15px 0 0 0}
+.take_form p{ width:371px; height:20px; float:left; color:#00773d; text-align:right; margin:25px 0 0 0}
+.login_m{ width:326px; height:300px; float:left; padding:30px 0 0 75px}
+.login_m li{ float:left;}
+.login_m .wole_com{ font-size:18px; color:#00773d; font-weight:600}
+.login_m .admin_name{ width:269px; height:33px; background:url(../images/lon_ame_03.jpg) no-repeat; margin:11px 0 8px 0}
+.login_m .admin_name input{ width:240px; height:31px; border:none; background:transparent; padding:3px 0 0 26px; color:#333; line-height:31px}
+.admin_pass{width:269px; height:33px; background:url(../images/pass_03.jpg) no-repeat; margin:0 0 8px 0}
+
+.login_m .admin_pass input{ width:240px; height:31px; border:none; background:transparent; padding:3px 0 0 26px; color:#333; line-height:31px}
+.checking{ width:300px; height:33px;}
+.chek_input{ width:152px; height:30px; line-height:30px; background:url(../images/y_03.jpg) no-repeat; float:left}
+.chek_input input{ width:150px; height:30px; border:none; background:transparent; line-height:30px}
+.change_ipc{ float:left;width:60px; height:28px; padding:0 5px 0 18px}
+.change_pic{ color:#00773d; display:block; margin:10px 0 0 0;}
+.change_pic:hover{ text-decoration:underline}
+.login_m .input_word{ height:20px; width:200px; padding:8px 0 10px 73px; color:#a8a8a8}
+.login_m .login_butt{ width:200px; height:42px;padding:0 0 0 75px; float:left}
+.login_m .login_butt a{ display:block; width:122px; height:42px; background:url(../images/an_03.gif) no-repeat; float:left; }
+.login_m .tell_phone{ width:200px; height:20px; padding:25px 0 0 55px; font-size:14px; color:#5b5b5b}
+
+

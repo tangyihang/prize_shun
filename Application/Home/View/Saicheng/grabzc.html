@@ -1,0 +1,49 @@
+
+<script type="text/javascript">
+$(function(){
+	
+	$('#grab_lottery').change(function(){
+		var postmsg = {grabid:$(this).val()};
+		$.post('__URL__/getgrabissue',postmsg,function(res){ 	
+			var data = eval('(' + res + ')');
+			$('#grab_issue').val(data.grabissue);
+		});
+		
+	});
+	
+	$('#grab_game').click(function(){
+		var postmsg = {lotteryid:$('#grab_lottery').val(),lotteryissue:$('#grab_issue').val()};
+		$.post('__URL__/grabzc_run',postmsg,function(res){ 	
+			var data = eval('(' + res + ')');
+			alert(data.message);
+		});
+	});
+});	
+</script>
+
+<div class="pageContent">
+	<div layouth="56" class="pageFormContent" style="height: auto; overflow: auto;">
+		<p style="width:100%"><span style=" margin:0 0 0 30px"><strong>{$kjinfo.cz_name}&nbsp;传统足彩对阵信息录入</strong></span></p>
+		<p style="width:100%;">
+			<label style="width:100px;text-align:right;">玩法名称：</label>
+			<select class="combox" name="lotteryid" id="grab_lottery">
+				<foreach name="cz_zucai" item="cz">
+					<option value="{$cz.value}">{$cz.name}</option>
+				</foreach>
+			</select>
+		</p>
+		<p style="width:100%">
+			<label style="width:100px;text-align:right;">期号：</label>
+			<input type="text" name="grab_issue" id="grab_issue" alt="" value="{$issue}" size="10" class="required textInput valid" />
+		</p>
+			
+		<p width="100%">
+			<label style="width:100px;text-align:right;">&nbsp;</label>
+			<input type="button" name="grab_game" id="grab_game" value="抓取">
+		</p>
+			
+	</div>
+</div>
+
+ 
+ 

@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+<link href="{$s_path}css/nmstyle.css" type="text/css" rel="stylesheet" />
+<link href="{$s_path}css/jquery.ui.all.css" type="text/css" rel="stylesheet" />
+<link href="{$s_path}css/jquery.ui.datepicker.css" type="text/css" rel="stylesheet" />
+<script language="javascript" src="{$s_path}js/jquery1.4.2.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.core.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.widget.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.datepicker.js"></script>
+
+</head>
+<body>
+<div class="dangq"><a href="javascript:void(0);">我的返点</a></div>
+<div class="conbox">
+<form name="mainform" method="post">
+
+  <table width="0%" class="con_t01" border="0" cellspacing="1" cellpadding="0">
+    <tr>
+      <th height="29" width="100">彩种</th>
+      <th width="100">返点比例</th>
+    </tr>
+  {foreach name=myRate item=data from=$myRate}
+  <tr>
+    <td class="doub">{$data.lotteryname}</td>
+    <td class="doub">{$data.rewardrate}%</td>
+  </tr>
+  {/foreach}
+</table>
+
+</table>
+
+</form>
+</div>
+</body>
+</html>

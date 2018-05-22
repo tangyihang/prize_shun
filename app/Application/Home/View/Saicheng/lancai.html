@@ -1,0 +1,102 @@
+ <form id="pagerForm" method="post" action="__APP__/Home/Saicheng/lancai">
+	<input type="hidden" name="status" value="${param.status}">
+	<input type="hidden" name="lotteryid" value="${param.lotteryid}" />
+    <input type="hidden" name="lotttime" value="{$lotttime}" /> 
+	<input type="hidden" name="pageNum" value="1" />
+	<input type="hidden" name="numPerPage" value="${model.numPerPage}" />
+	<input type="hidden" name="orderField" value="${param.orderField}" />
+</form>
+<div class="pageHeader">
+	<form onsubmit="return navTabSearch(this);" action="__APP__/Home/Saicheng/lancai" method="post">
+	<input type="hidden" name="token" value="doselect"/>
+	<div class="searchBar">
+		<table class="searchContent">
+			<tr>
+			   <td width="180">
+					<div style="float:left;width:auto;line-height:24px;">玩法名称：</div>
+					<div style="float:left;width:auto;line-height:30px;">
+					<select class="combox" name="lotteryid" id="lotteryid">
+						<option value="0" <eq name="lotteryid" value="0">selected="selected"</eq>>    ---全部---   </option>
+					 	<foreach name="caizhong" item="cz">
+					 	<option value="{$cz.value}" <if condition="$lotteryid eq $cz.value ">selected="selected"</if>>{$cz.name}</option>
+					 	</foreach>
+					</select>
+					</div>
+				</td>
+			    <td width="180">
+					对阵编号：<input type="text" id="ballid" class="textInput" name="ballid" value='{$ballid}'  size='15' />
+				</td>
+				<td width="180">
+					对阵日期：<input type="text" id="lotttime" class="date" name="lotttime" value='{$lotttime}' size='15' />
+				</td>
+				<td>
+					<div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div>
+				</td>
+			</tr>
+		</table>
+		<!--<div class="subBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div></li>
+			</ul>
+		</div>-->
+	</div>
+	</form>
+</div>
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+			<li><a class="edit" href="__URL__/changestatus?cz_type=12&ballid={lotteryballid}&act=zt" target="dialog" rel="zt" title="修改销售状态"><span>修改销售状态</span></a></li>
+		</ul> 
+	</div>
+	<table class="table" width="100%" layoutH="113">
+		<thead>
+			<tr>
+				<th width="100" align="center">对阵编号</th>
+				<th width="60" align="center">对阵时间</th>
+				<th width="100" align="center">赛事名称</th>
+				<th width="60" align="center">主队</th>
+				<th width="80" align="center">客队</th>
+				<th width="80" align="center">比赛时间</th>
+				<th width="50" align="center">胜负</th>
+				<th width="50" align="center">让分胜负</th>
+				<th width="50" align="center">大小分</th>
+				<th width="50" align="center">胜分差</th>
+				<th width="130" align="center">状态</th>
+			</tr>
+		</thead>
+		<tbody>
+		    <foreach name="sailist" item="sai">
+		    <tr target="lotteryballid" rel="{$sai.lotttime}_{$sai.ballid}"  height="30">
+				<td>{$sai.cnweek}{$sai.ballid}</td>
+				<td>{$sai.lotttime}</td>
+				<td>{$sai.gamename}</td>
+				<td>{$sai.hteam}</td>
+				<td>{$sai.vteam}</td>
+				<td>{$sai.gamestarttime}</td>
+				<td><span class="{$sai.216}"></span></td>
+				<td><span class="{$sai.214}"></span></td>
+				<td><span class="{$sai.215}"></span></td>
+				<td><span class="{$sai.217}"></span></td>
+				<td>{$sai.publicstatus}</td>
+				</tr> 
+			<!--todoAjax-->
+			</foreach>
+		</tbody>
+	</table>
+	<div class="panelBar">
+		<div class="pages">
+			<!--<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="20">20</option>
+				<option value="50">50</option>
+				<option value="100">100</option>
+				<option value="200">200</option>
+			</select>
+			<span>条，-->
+			<span>共{$totalCount}条记录</span>
+		</div>
+		
+		<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="{$pageNumShown}" currentPage="{$currentPage}"></div>
+ 
+	</div>
+</div>

@@ -1,0 +1,55 @@
+
+<div class="pageContent">
+	<div class="pageFormContent" layoutH="56">
+		<p style="width:100%; color:blue;">奖期信息</p>   
+		<table width="100%" class="table" >
+			<thead>
+			<tr>
+				<th width="80" align="center">玩法编号</th>
+				<th width="60" align="center">玩法期号</th>
+				<th width="100" align="center">开奖号码</th>
+				<th width="100" align="center">开奖时间</th>
+				<th width="60" align="center">全国销售总金额</th>
+				<th width="60" align="center">滚入下期金池金额</th>
+			</tr>
+			</thead>
+			<tbody>
+				<if condition="$bonuscode neq '' ">
+				<tr>
+					<td align="center">{$lotteryid}</td>
+                    <td align="center">{$lotteryissue}</td>
+                    <td align="center">{$bonuscode}</td>
+                    <td align="center">{$bonustime}</td>
+                    <td align="center">{$salevalue}元</td>
+                    <td align="center">{$nextbonusvalue}元</td>
+                </tr>
+                </if>
+			</tbody>
+		</table>
+        <p style="width:100%; color:blue;">中奖信息</p>                       
+        <table width="100%" class="table" layoutH="100">
+			<thead>
+				<tr>
+					<th width="80" align="center">玩法编号</th>
+                    <th width="80" align="center">玩法名称</th>
+                    <th width="80" align="center">彩票期号</th>
+                    <th width="80" align="center">中奖等级</th>
+                    <th width="80" align="center">中奖注数</th>
+                    <th width="80" align="center">金额(单位：元)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="olist" item="ol">
+				<tr>
+                    <td align="center">{$ol.lotteryid}</td>
+                    <td align="center">{$ol.lotteryname}</td>
+                    <td align="center">{$ol.lotteryissue}</td>
+                    <td align="center">{$ol.level_id}</td>
+                    <td align="center">{$ol.investcount}</td>
+                    <td align="center">{$ol.bonus}元</td>
+                </tr>
+                </foreach>
+			</tbody>
+		</table>                 
+	</div>
+</div>

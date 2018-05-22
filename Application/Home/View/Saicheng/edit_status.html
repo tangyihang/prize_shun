@@ -1,0 +1,61 @@
+<div class="pageContent">
+	<form method="post" action="__URL__/donestatus" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<input type='hidden' name="token" value="edit" />
+		<input type='hidden' name="act" value="saveform" />
+		<input type='hidden' name="lotttime" value="{$lotttime}" />
+		<input type='hidden' name="ballid" value="{$ballid}" />
+		<input type='hidden' name="cz_type" value="{$cz_type}" />
+		<input type="hidden" name="status" id="status"  value="" />
+		<div class="pageFormContent" layoutH="56">
+		
+		<table class="table" width="100%" layoutH="100">
+		<thead>
+			<tr>
+			    <th width="20" align="center"><input type="checkbox" group="lotteryids[]" class="checkboxCtrl"></th>
+			    <th width="100" align="center">玩法分类</th>
+				<th width="100" align="center">玩法名称</th>
+				<th width="100" align="center">对阵时间</th>
+				<th width="100" align="center">对阵编号</th>
+				<th width="100" align="center">售票状态</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+		  <foreach name="lotarr" item="lot">
+		   <tr target="lotteryballid" rel="ids"  height="30">
+		        <td><input type="checkbox" name="lotteryids[]" value="{$lot.lotteryid}"></td> 
+		        <td>{$lot.cz_type}</td>
+				<td>{$lot.lotteryname}</td>
+				<td>{$lotttime}</td>
+				<td>{$ballid}</td>
+				<td>{$lot.status}</td>
+		    </tr> 
+		  </foreach>
+		</tbody>
+	    </table>	
+		</div>
+		<div class="formBar">
+			<ul>
+			    <li><div class="buttonActive"><div class="buttonContent"><button type="submit" class="zt">暂停销售</button></div></div></li>
+				
+			    <li><div class="buttonActive"><div class="buttonContent"><button type="submit" class="qx">取消比赛</button></div></div></li>
+				
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit" class="xs">继续销售</button></div></div></li>
+				
+			</ul>
+		</div>
+	</form>
+</div>
+<script>
+ $(function(){
+    $(".zt").click(function(){
+       $("#status").val(1);
+    })
+    $(".qx").click(function(){
+       $("#status").val(4);
+    })
+    $(".xs").click(function(){
+       $("#status").val(0);
+    })
+ })
+</script>

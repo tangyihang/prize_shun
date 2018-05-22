@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link href="{$s_path}css/nmstyle.css" type="text/css" rel="stylesheet" />
+<title>我的会员</title>
+<script language="javascript" src="{$s_path}js/nmjs.js"></script>
+<script language="javascript" src="{$s_path}js/jquery1.4.2.js"></script>
+<script language="javascript" src="{$s_path}js/thickbox.js"></script>
+</head>
+<body>
+<form name="mainform" method="post" style="display:{$show.form}">
+<table width="0%" class="poptab" border="0" cellspacing="1"
+	cellpadding="0">
+	<tr>
+		<th align="center">彩种</th>
+		<th align="center">我的佣金</th>
+		<th align="center">{$username}的佣金</th>
+	</tr>
+	<tr>
+		<td colspan="3" align="right">所有彩种佣金为<input type="text"
+			name="allrate" id="allrate" class="tabinput" value="" /> %</td>
+	</tr>
+  {foreach name=datalist item=dl from=$datalist}
+  <tr>
+    <td align="center">{$dl.lotteryname}</td>
+    <td align="center">{$dl.myrate} %</td>
+    <td align="right">
+    	<input type="text" name="setdata[lowerrate][]" class="tabinput" value="{$dl.lowerrate}" />
+    	<input type="hidden" name="setdata[myrate][]" value="{$dl.myrate}" />
+    	<input type="hidden" name="setdata[oldrate][]" value="{$dl.lowerrate}" />
+    	<input type="hidden" name="setdata[lotteryid][]" value="{$dl.lotteryid}" /> %</td>
+  </tr>
+  {/foreach}
+</table>
+<div class="btbox">
+	<input type="submit" name="save" id="button"
+	value="保存" class="popbotton" />&nbsp;&nbsp; 
+	<input type="submit" name="button" value="取消" class="popbotton"
+	onClick="self.parent.tb_remove();self.parent.form_show();" /></div>
+</form>
+<div style="display:{$show.div}">
+	<div class="warning">{$show.text}</div>
+	<div class="btbox"><input type="submit" name="button" value="关闭" class="popbotton"
+	onClick="self.parent.tb_remove();self.parent.form_show();" /></div>
+</div>
+</body>
+</html>

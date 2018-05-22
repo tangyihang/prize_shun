@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+        <link href="{$s_path}css/nmstyle.css" type="text/css" rel="stylesheet" />
+        <title>头部信息</title>
+		<!-- <script type="text/javascript" src="http://agent.198tc.com/view/js/jquery-1.4.1.min.js"></script> -->
+		<script type="text/javascript" src="http://agent.198tc.com/view/js/jquery1.4.2.js"></script>
+		<script type="text/javascript" src="http://agent.198tc.com/view/js/jQuery.textSlider.js"></script>
+    </head>
+
+
+
+    <body>
+        <div class="nmtop">
+            <div>
+                <div class="lg"><img src="{$s_path}images/log.jpg"  /></div>
+                <div class="mess">
+
+                    <div style="dispaly:inline; float:left;">
+                        <span class="fontred14B">{$username}</span>，您好！欢迎登录华阳彩票代理系统
+                        <span style="padding-left:50px">投注账户：<span class="fontred14B">{$bettingValue}</span> 元</span>
+                        <span style="padding-left:30px">中奖账户：<span class="fontred14B">{$bonusValue}</span> 元</span>
+                        <span style="padding: 0 20px 0 30px">佣金账户：<span class="fontred14B">{$rateValue}</span> 元</span>
+                        <a href="logout.php" onclick="return confirm('是否确认退出华阳彩票代理查询系统？')" target="_parent"><img id="logout" src="{$s_path}images/nmlott_07.jpg" alt="" align="absmiddle"/></a>
+                    </div>
+					<!--
+                    <div style="dispaly:inline; float:left; width:365px;padding-top:3px; color:#f00; margin-left:40px;">
+                    	<div style="float:left; width:65px; font-size:12px; line-height:27px;">最新公告：</div>
+                    	<div id="scrollgg" style="float:left; width:300px; height:27px; line-height:27px; overflow:hidden;"><a href="#" style=" color:#f00;">足彩、北单、竟彩代理佣金费用调整公告！</a><br /><a href="#" style=" color:#f00;">222足彩、北单、竟彩代理佣金费用调整公告！</a></div>
+					</div>
+                    -->
+                    <!--
+                    <DIV id="easy_new_sort112" style="float:left; width:300px; height:27px; line-height:27px; overflow:hidden;">
+											<ul>
+												<li><a href="#" style=" color:#f00;">足彩、北单、竟彩代理佣金费用调整公告！</a></li>
+												<li><a href="#" style=" color:#f00;">222足彩、北单、竟彩代理佣金费用调整公告！</a></li>
+											</ul>
+										</DIV>
+										-->
+					<script type="text/javascript">
+                            $(document).ready(function () {
+                                $("#easy_new_sort112").textSlider({
+                                    line: 1,
+                                    speed: 500,
+                                    timer: 3000
+                                });
+                            });
+					</script>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+
+</html>
+

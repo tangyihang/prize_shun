@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>登录</title>
+<link href="{$s_path}/css/take.css" rel="stylesheet" type="text/css" />
+</head>
+<script language="javascript"  src="{$s_path}js/jquery1.4.2.js"></script>
+        <script language="javascript">
+            $(document).ready(function(){
+                var msg = '{$msg}';
+                if(msg!=''){
+                    alert(msg);
+                }
+
+                $("#a1").click( function() { //alert('dd');
+                    var timestamp = (new Date()).valueOf();
+                    $("#imageVerify").attr({ src:"/common/imageVerify.php?timestamp="+timestamp , alt: "验证码" });
+                });
+
+                $("#imageVerify").click( function() { //alert('dd');
+                    var timestamp = (new Date()).valueOf();
+                    $("#imageVerify").attr({ src:"/common/imageVerify.php?timestamp="+timestamp , alt: "验证码" });
+                });
+
+                $("#sub").click(function(){
+                    if($("#uname").val()==''){
+                        alert('用户名不能为空');
+                        return false;
+                    }
+
+                    if($("#pwd").val()==''){
+                        alert('密码不能为空！');
+                        return false;
+                    }
+                    if($("#verify").val()==''){
+                        alert('验证码不能为空！');
+                        return false;
+                    }
+                    $("#register").submit();
+                });
+
+                $("body").bind('keyup',function(event){
+                if (event.keyCode == 13)
+                {
+                	if($("#uname").val()==''){
+                        alert('用户名不能为空');
+                        return false;
+                    }
+                    if($("#pwd").val()==''){
+                        alert('密码不能为空！');
+                        return false;
+                    }
+                    if($("#verify").val()==''){
+                        alert('验证码不能为空！');
+                        return false;
+                    }
+                    $("#register").submit();
+                }
+            });
+            })
+        </script>
+<body>
+    <div class="take_mange">
+      <div class="take_cont">
+        <div class="take_name"><img src="{$s_path}images/name_03.jpg"></div>
+        <div class="take_form">
+          <p><!--Date: 25/03/2013--></p>
+          <form id="register" name="register" action="index.php" method="post">
+          	<input type="hidden" name="token" id="token" value="dopost" />
+          <ul class="login_m">
+             <li class="wole_com">欢迎登陆</li>
+             <li class="admin_name"><input type="text" name="uname" id="uname" onblur=" if(this.value == '') { this.value = '用户名'; }" onfocus="if(this.value == '用户名') { this.value = ''; }" value="用户名" ></li>
+             <li class="admin_pass"><input type="password" name="pwd" id="pwd"></li>
+             <li class="checking">
+               <div class="chek_input"><input type="text" name="verify" id="verify" value=""></div>
+               <div class="change_ipc"><img id="imageVerify" src="../../common/imageVerify.php"></div>
+               <a id="a1"  class="change_pic">换一个</a>
+             </li>
+             <li class="input_word">输入上图文字</li>
+             <li class="login_butt" name="sub" id="sub"><a href="#"></a></li>
+             <li class="tell_phone">咨询电话：400-630-1806</li>
+          </ul>
+          <form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<form id="pagerForm" method="post" action="__URL__/index">
+	<input type="hidden" name="act" value="query">
+	<input type="hidden" name="lotteryid" value="{$lotteryid}" />
+	<input type="hidden" name="lotteryissue" value="{$lotteryissue}" />
+	<input type="hidden" name="starttime" value="{$starttime}" />
+	<input type="hidden" name="endtime" value="{$endtime}" />	
+	<input type="hidden" name="source" value="{$source}" />	
+	<input type="hidden" name="status" value="{$status}" />	
+	<input type="hidden" name="pageNum" value="1" />
+	<input type="hidden" name="numPerPage" value="{$numPerPage}" />
+	
+</form>
+<div class="pageHeader">
+	<form onsubmit="return navTabSearch(this);" action="__URL__/index" method="post">
+	<input type="hidden" name="act" value="query" />
+	<div class="searchBar">
+		<table class="searchContent">
+			<tr>
+			   <td width="180">
+					<div style="float:left;width:auto;line-height:24px;">玩法名称：</div>
+					<div style="float:left;width:80px;line-height:30px;">
+					<select class="combox" name="lotteryid" id="playlottery">
+						<option value="" <eq name="lotteryid" value="">selected="selected"</eq>>    ---全部---   </option>
+						<foreach name="play_list" item="pl">
+					 	<option value="{$pl.lotteryid}" <if condition="$lotteryid eq $pl.lotteryid ">selected="selected"</if>>{$pl.description}</option>
+					 	</foreach>
+					</select>
+					</div>
+				</td>
+			    <td width="180">
+					彩票期号：<input type="text" id="lotteryissue" class="textInput" name="lotteryissue" value='{$lotteryissue}'  size='15' />
+				</td>
+				<td width="180">
+					起始时间：<input type="text" id="starttime" class="date" name="starttime" value='{$starttime}' size='15' />
+				</td>
+				<td width="180">
+					截止时间：<input type="text" id="endtime" class="date" name="endtime" value='{$endtime}' size='15' />
+				</td>
+				<td width="100">
+					<div style="float:left;width:auto;line-height:24px;">渠道：</div>
+					<div style="float:left;width:50px;line-height:30px;">
+					<select class="combox" name="source" id="source">
+						<option value="b2c" <if condition="$source eq 'b2c' ">selected="selected"</if>>&nbsp;B2C&nbsp;</option>
+					 	<option value="b2b" <if condition="$source eq 'b2b' ">selected="selected"</if>>&nbsp;B2B&nbsp;</option>
+					</select>
+					</div>
+				</td>
+				<td width="180">
+					<div style="float:left;width:auto;line-height:24px;">状态：</div>
+					<div style="float:left;width:auto;line-height:30px;">
+					<select class="combox" name="status" id="status">
+			            <option value="" <eq name="status" value="">selected="selected"</eq>>请选择…</option>
+			            <foreach name="play_status" item="stat">
+					 	<option value="{$stat.value}" <if condition="$status eq $stat.value ">selected="selected"</if>>{$stat.name}</option>
+					 	</foreach>            
+        			</select>
+					</div>
+				</td>
+				<td>
+					<div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</form>
+</div>
+<div class="pageContent">
+	<table class="table" width="100%" layoutH="86">
+		<thead>
+			<tr>
+				<th width="80" align="center">玩法名称</th>
+				<th width="60" align="center">期号</th>
+				<th width="120" align="center">开期时间</th>
+				<th width="120" align="center">官方期结时间</th>
+				<th width="50" align="center">类型</th>
+				<th width="120" align="center">代购期结时间</th>
+				<th width="120" align="center">单式方案截至时间</th>
+				<th width="120" align="center">复式方案截至时间</th>
+				<th width="80" align="center">当前状态</th>
+				<th width="80" align="center">期结时间</th>
+				<th width="80" align="center">修改状态</th>
+			</tr>
+		</thead>
+		<tbody>
+		    <foreach name="issuelist" item="sl">
+		    <tr height="30">
+				<td>{$sl.description}</td>
+				<td>{$sl.lotteryissue}</td>
+				<td>{$sl.starttimestamp}</td>
+				<td>{$sl.endtimestamp}</td>
+				<td>{$sl.lotterytype}</td>
+				<td>{$sl.endtime1}</td>
+				<td>{$sl.endtime2}</td>
+				<td>{$sl.endtime3}</td>
+				<td>{$sl.statusdesc}
+				<?php 
+					if(in_array($sl[status],array('-1','0'))){
+						echo '<a style="color:#0033ff" href="__URL__/edit?recid='.$sl[lotteryid].'_'.$sl[lotteryissue].'&condition='.$lotteryid.'_'.$lotteryissue.'_'.$starttime.'_'.$endtime.'_'.$source.'_'.$status.'" target="dialog" height="350" rel="editresult" title="修改">修改</a>';
+					} 
+				?>
+				</td>
+				<td><a style="color:#0033ff" href="__URL__/setendtime?recid={$sl.lotteryid}_{$sl.lotteryissue}&condition={$lotteryid}_{$lotteryissue}_{$starttime}_{$endtime}_{$source}_{$status}" target="dialog" height="320" title="期结时间">设置</a></td>
+				<if condition="$sl.status eq '2'">
+				 <td><a href="javascript:alert('封期期号不能修改状态！');" style="color:#0033ff;font-style: italic">关闭/正常</a></td>
+				<else />
+				<td><a style="color:#0033ff" href="__URL__/setstatus?recid={$sl.lotteryid}_{$sl.lotteryissue}&condition={$lotteryid}_{$lotteryissue}_{$starttime}_{$endtime}_{$source}_{$status}" target="dialog" height="300" width="380" title="修改状态">关闭/正常</a></td>
+				</if>
+			</tr>
+			</foreach>
+		</tbody>
+	</table>
+	<div class="panelBar">
+		<div class="pages">
+			<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="20" <if condition="$numPerPage eq '20'">selected="selected"</if>>20</option>
+				<option value="50" <if condition="$numPerPage eq '50'">selected="selected"</if>>50</option>
+				<option value="100" <if condition="$numPerPage eq '100'">selected="selected"</if>>100</option>
+				<option value="200" <if condition="$numPerPage eq '200'">selected="selected"</if>>200</option>
+			</select>
+			<span>共{$pageTotal}页</span>
+		</div>
+		<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="{$pageNumShown}" currentPage="{$currentPage}"></div>
+	</div>
+</div>
+
+

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+ul, li, form, input, textarea, p, td {	margin:0;	padding:0;}
+ul, li{ list-style:none;}
+html{ background:url(../images/bg_login.jpg) repeat-x center; background-color:#066CAA; b}
+
+.all{ width:1011px; height:409px; background:url(../images/bg.jpg) no-repeat ; margin:100px auto; padding-top:76px; }
+.title_text{ width:477px; height:55px; overflow:hidden; margin:0 0 0 264px; }
+.login{ width:386px; height:244px; margin-left:301px; background:url(../images/login_bg.jpg) no-repeat; overflow:hidden;}
+.login_tab{
+	margin-top: 48px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 74px;
+}
+.input1{ width:176px; height:15px; border:#007bb9 1px solid; margin-left:20px; margin-top:7px; margin-bottom:8px; padding:2px 2px 2px 2px;}
+.input2{ width:77px; height:15px; border:#007bb9 1px solid; margin-left:20px; margin-top:7px; margin-bottom:8px; padding:2px 2px 2px 2px; float:left;}
+.img{ margin-left:4px; margin-top:8px; float:left;}
+.span1{ float:left; margin-top:12px; margin-left:4px;}
+.a1{ color:#FFFFFF; text-decoration:underline;}
+.a1:hover{ color:#FFFFFF; text-decoration:underline;}
+.img1{ margin-left:20px; cursor:pointer;}
+.red_ts{ color:#FF0000;}

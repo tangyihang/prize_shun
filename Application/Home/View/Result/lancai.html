@@ -1,0 +1,104 @@
+<form id="pagerForm" method="post" action="__URL__/lancai">
+	<input type="hidden" name="act" value="query">
+	<input type="hidden" name="lotttime" value="{$lotttime}" />
+	<input type="hidden" name="ballid" value="{$ballid}" />
+	<input type="hidden" name="status" value="{$status}" />	
+	<input type="hidden" name="pageNum" value="{$currentPage}" />
+	<input type="hidden" name="numPerPage" value="{$numPerPage}" />
+	
+</form>
+<div class="pageHeader">
+	<form onsubmit="return navTabSearch(this);" action="__URL__/lancai" method="post">
+	<input type="hidden" name="act" value="query" />
+	<div class="searchBar">
+		<table class="searchContent">
+			<tr>
+			   <td width="180">
+					对阵时间：<input type="text" class="date" name="lotttime" value='{$lotttime}' readonly="true" size='15' />
+				</td>
+			    <td width="180">
+					对阵编号：<input type="text" class="textInput" name="ballid" value='{$ballid}' size='15' />
+				</td>
+				<td>
+					<div style="float:left;width:auto;line-height:24px;">状态：</div>
+					<div style="float:left;width:auto;line-height:30px;">
+					<select class="combox" name="status" id="lcstatus">
+						<option value="1" <if condition="$status ==1 ">selected</if>>异常</option>
+						<option value="2" <if condition="$status ==2 ">selected</if>>正常</option>
+					</select>
+					</div>
+				</td>
+				<td>
+					<div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</form>
+</div>
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+			<li><a class="add" href="__URL__/add?act=lc" target="dialog" rel="lcresult" title="添加赛果"><span>添加赛果</span></a></li>
+			<li><a class="edit" href="__URL__/view?recid={lotttime_ballid}&act=edit&source=lc" target="dialog" width="770" rel="editresult" title="修改赛果"><span>修改赛果</span></a></li>
+		</ul>
+	</div>
+	<table class="table" width="100%" layoutH="113">
+		<thead>
+			<tr>
+				<th width="80" align="center">ID</th>
+				<th width="60" align="center">对阵编号</th>
+				<th width="150" align="center">对阵时间</th>
+				<th width="60" align="center">来源</th>
+				<th width="100" align="center">一节</th>
+				<th width="100" align="center">二节</th>
+				<th width="100" align="center">三节</th>
+				<th width="100" align="center">四节</th>
+				<th width="100" align="center">加时</th>
+				<th width="100" align="center">总比分</th>
+				<th width="150" align="center">比赛时间</th>
+				<th width="150" align="center">入库时间</th>
+				<th width="100" align="center">赛果</th>
+				<th width="100" align="center">状态</th>
+				<th width="150" align="center" >操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		    <foreach name="resultlist" item="res">
+		    <tr target="lotttime_ballid" rel="{$res.lotttime}_{$res.ballid}" >
+				<td>{$res.id}</td>
+				<td>{$res.cnballid}</td>
+				<td>{$res.lotttime}</td>
+				<td>{$res.source}</td>
+				<td>{$res.first_score}</td>
+				<td>{$res.two_score}</td>
+				<td>{$res.three_score}</td>
+				<td>{$res.four_score}</td>
+				<td>{$res.add_score}</td>
+				<td>{$res.full_score}</td>
+				<td>{$res.match_starttime}</td>
+				<td>{$res.addtime}</td>
+				<td>{$res.result}</td>
+				<td>{$res.status}</td>
+				<td><a href='__URL__/view?recid={$res.lotttime}_{$res.ballid}&source=lc' target="dialog" width="750" title="查看赛果">查看</a>
+					<if condition="($res.status neq '4') and ($status eq '2') "> | <a style="color:#0033ff" href="__URL__/pauseAward?recid={$res.lotttime}_{$res.ballid}&rstatus={$res.status}&act=lc" title="您确定要暂停派奖操作吗？" target="ajaxTodo">暂停派奖</a><elseif condition="($res.status eq '4') and ($status eq '2') " /> | <a style="color:#0033ff" href="__URL__/pauseAward?recid={$res.lotttime}_{$res.ballid}&rstatus={$res.status}&act=lc" title="您确定要开启派奖操作吗？" target="ajaxTodo">开启派奖</a></if></td>
+			</tr>
+			</foreach>
+		</tbody>
+	</table>
+	<div class="panelBar">
+		<div class="pages">
+			<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="20" <if condition="$numPerPage eq '20'">selected="selected"</if>>20</option>
+				<option value="50" <if condition="$numPerPage eq '50'">selected="selected"</if>>50</option>
+				<option value="100" <if condition="$numPerPage eq '100'">selected="selected"</if>>100</option>
+				<option value="200" <if condition="$numPerPage eq '200'">selected="selected"</if>>200</option>
+			</select>
+			<span>共{$pageTotal}页</span>
+		</div>
+		<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="{$pageNumShown}" currentPage="{$currentPage}"></div>
+	</div>
+</div>
+
+

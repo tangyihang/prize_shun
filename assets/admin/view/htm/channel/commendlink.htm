@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+<link href="{$s_path}css/nmstyle.css" type="text/css" rel="stylesheet" />
+<link href="{$s_path}css/jquery.ui.all.css" type="text/css" rel="stylesheet" />
+<link href="{$s_path}css/jquery.ui.datepicker.css" type="text/css" rel="stylesheet" />
+<script language="javascript" src="{$s_path}js/jquery1.4.2.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.core.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.widget.js"></script>
+<script language="javascript" src="{$s_path}js/jquery.ui.datepicker.js"></script>
+<!--<script language="javascript" type="text/javascript" src="http://www.198tc.com/home/source/script_common.js"></script>-->
+<script language="javascript" type="text/javascript">
+var userAgent = navigator.userAgent.toLowerCase();
+var is_opera = userAgent.indexOf('opera') != -1 && opera.version();
+var is_moz = (navigator.product == 'Gecko') && userAgent.substr(userAgent.indexOf('firefox') + 8, 3);
+var is_ie = (userAgent.indexOf('msie') != -1 && !is_opera) && userAgent.substr(userAgent.indexOf('msie') + 5, 3);
+var is_safari = (userAgent.indexOf('webkit') != -1 || userAgent.indexOf('safari') != -1);
+var note_step = 0;
+var note_oldtitle = document.title;
+var note_timer;
+
+//复制URL地址
+function setCopy(_sTxt){
+	if(is_ie) {
+		clipboardData.setData('Text',_sTxt);
+		alert ("网址“"+_sTxt+"”\n已经复制到您的剪贴板中\n您可以使用Ctrl+V快捷键粘贴到需要的地方");
+	} else {
+		prompt("请复制网站地址:",_sTxt); 
+	}
+}
+
+	
+</script>
+</head>
+<body>
+<div class="dangq"><a href="#">推广链接</a></div>
+<div class="conbox">
+<p><strong>您可以通过QQ、MSN等IM工具，或者发送邮件，把下面的链接告诉你的好友，邀请他们加入进来。</strong></p>
+<a href="javascript:void(0);" onclick="javascript:setCopy('{$commendlink}');return false;">{$commendlink}</a>
+</div>
+</div>
+</body>
+</html>

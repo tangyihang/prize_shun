@@ -1,0 +1,59 @@
+<div class="pageContent">
+	<form method="post" action="__URL__/add" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<input type='hidden' name="act" value="add" />
+		<div class="pageFormContent" layoutH="56">
+			<p style="width:100%;">
+				<label style="text-align:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玩法名称：</label>
+				<select class="combox" name="lotteryid">
+				    <foreach name="cz_zucai" item="cz">
+				    <option value="{$cz.value}">{$cz.name}</option>
+				    </foreach>
+			    </select>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;彩票期号：</label>
+				<input type="text" class="required" name="lotteryissue" size="25" />
+				<label style="width:200px;color:#999;">录入新期</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">开始时间：</label>
+				<input type="text" class="date" name="starttimestamp" size="25" datefmt="yyyy-MM-dd HH:mm" />
+				<a class="inputDateButton" href="javascript:;">选择</a>
+				<label style="width:200px;color:#999;">格式：2015-03-05 22:00</label>		
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">官方截至时间：</label>
+				<input type="text" class="date" name="endtimestamp" size="25" datefmt="yyyy-MM-dd HH:mm" />
+				<a class="inputDateButton" href="javascript:;">选择</a>
+				<label style="width:200px;color:#999;">格式：2015-03-05 22:00</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">代购期结时间：</label>
+				<input type="text" class="date" name="endtime1" size="25" datefmt="yyyy-MM-dd HH:mm" />
+				<a class="inputDateButton" href="javascript:;">选择</a>
+				<label style="width:200px;color:#999;">格式：2015-03-05 22:00</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">单式截止时间：</label>
+				<input type="text" class="date" name="endtime2" size="25" datefmt="yyyy-MM-dd HH:mm" />
+				<a class="inputDateButton" href="javascript:;">选择</a>
+				<label style="width:200px;color:#999;">格式：2015-03-05 22:00</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">复式截止时间：</label>
+				<input type="text" class="date" name="endtime3" size="25" datefmt="yyyy-MM-dd HH:mm" />
+				<a class="inputDateButton" href="javascript:;">选择</a>
+				<label style="width:200px;color:#999;">格式：2015-03-05 22:00</label>
+				
+			</p>
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li>
+					<div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

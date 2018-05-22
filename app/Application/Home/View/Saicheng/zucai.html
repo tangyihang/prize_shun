@@ -1,0 +1,83 @@
+<form id="pagerForm" method="post" action="__URL__/zucai">
+	<input type="hidden" name="act" value="query" />
+	<input type="hidden" name="lotteryid" value="{$lotteryid}" />
+	<input type="hidden" name="lotteryissue" value="{$lotteryissue}" />
+</form>
+<div class="pageHeader">
+	<form onsubmit="return navTabSearch(this);" action="__APP__/Home/Saicheng/zucai" method="post">
+	<input type="hidden" name="act" value="query"/>
+	<div class="searchBar">
+		<table class="searchContent">
+			<tr>
+			   <td width="200">
+					<div style="float:left;width:auto;line-height:24px;">玩法名称：</div>
+					<div style="float:left;width:auto;line-height:30px;">
+					<select class="combox" name="lotteryid" id="sclottery">
+						<option value="0" <eq name="lotteryid" value="0">selected="selected"</eq>>    ---全部---   </option>
+					 	<foreach name="cz_zucai" item="cz">
+					 	<option value="{$cz.value}" <if condition="$lotteryid eq $cz.value ">selected="selected"</if>>{$cz.name}</option>
+					 	</foreach>
+					</select>
+					</div>
+				</td>
+			    <td width="180">
+					彩票期号：<input type="text" id="lotteryissue" class="textInput" name="lotteryissue" value='{$lotteryissue}'  size='15' />
+				</td>
+				
+				<td>
+					<div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</form>
+</div>
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+			<li><a class="add" href="__URL__/add?act=zucai" target="navTab" rel="add_zc" title="添加对阵信息"><span>添加</span></a></li>
+		    <li><a class="edit" href="__URL__/edit?recid={lotteryid_lotteryissue}&act=zucai" target="navTab" rel="edit_zc" title="修改对阵信息"><span>修改</span></a></li>
+		    <li><a class="delete" href="__URL__/delete?recid={lotteryid_lotteryissue}&act=zucai" target="ajaxTodo" rel="delete_zc" title="确定要删除吗?"><span>删除</span></a></li>
+		</ul>
+	</div>
+	<table class="table" width="100%" layoutH="100">
+		<thead>
+			<tr>
+				<th width="100" align="center">玩法名称</th>
+				<th width="70" align="center">期号</th>
+				<th width="120" align="center">B2C状态</th>
+				<th width="120" align="center">B2B状态</th>
+				<th width="145" align="center">B2C操作</th>
+				<th width="145" align="center">B2B操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		    <foreach name="matchlist" item="sc">
+		    <tr target="lotteryid_lotteryissue" rel="{$sc.lotteryid}_{$sc.lotteryissue}" height="30">
+				<td>{$sc.lotteryname}</td>
+				<td>{$sc.lotteryissue}</td>
+				<td>{$sc.b2cstatus}</td>
+				<td>{$sc.b2bstatus}</td>
+				<!--<td><a <if condition="$sc.b2cisend eq '1' ">href="javascript:void(0);"<else />href="__URL__/{$sc.b2coptype}?recid={lotteryid_lotteryissue}_{$sc.send_flag}&token=tob2c"</if> target="{$sc.b2ctarget}" rel="b2c"><span class="{$sc.b2cstyle}"></span></a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a style="color:#0033ff" href="__URL__/edit?recid={$sc.lotteryid}_{$sc.lotteryissue}&act=zucai&token=tob2c" target="navTab" rel="viewb2c" title="B2C足彩"><span>详情</span></a>
+				</td>
+				<td><a <if condition="$sc.b2bisend eq '1' ">href="javascript:void(0);"<else />href="__URL__/{$sc.b2boptype}?recid={lotteryid_lotteryissue}_{$sc.send_flag}&token=tob2b"</if> target="{$sc.b2btarget}" rel="b2b"><span class="{$sc.b2bstyle}"></span></a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a style="color:#0033ff" href="__URL__/edit?recid={$sc.lotteryid}_{$sc.lotteryissue}&act=zucai&token=tob2b" target="navTab" rel="viewb2b" title="B2B足彩"><span>详情</span></a>
+				</td>
+				-->
+				<td><a <if condition="$sc.b2cisend eq '1' ">href="javascript:void(0);"<else />href="__URL__/{$sc.b2coptype}?recid={$sc.lotteryid}_{$sc.lotteryissue}_{$sc.send_flag}&token=tob2c"</if> target="{$sc.b2ctarget}" title="您确定要操作吗？" rel="b2c"><span class="{$sc.b2cstyle}"></span></a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a style="color:#0033ff" href="__URL__/edit?recid={$sc.lotteryid}_{$sc.lotteryissue}&act=zucai&token=tob2c" target="navTab" rel="viewb2c" title="B2C足彩"><span>详情</span></a>
+				</td>
+				<td><a <if condition="$sc.b2bisend eq '1' ">href="javascript:void(0);"<else />href="__URL__/{$sc.b2boptype}?recid={$sc.lotteryid}_{$sc.lotteryissue}_{$sc.send_flag}&token=tob2b"</if> target="{$sc.b2btarget}" title="您确定要操作吗？" rel="b2b"><span class="{$sc.b2bstyle}"></span></a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a style="color:#0033ff" href="__URL__/edit?recid={$sc.lotteryid}_{$sc.lotteryissue}&act=zucai&token=tob2b" target="navTab" rel="viewb2b" title="B2B足彩"><span>详情</span></a>
+				</td>
+			</tr>
+			</foreach>
+		</tbody>
+	</table>
+	
+</div>

@@ -1,0 +1,98 @@
+
+<if condition="$act eq 'set' ">
+<div class="pageContent">
+	<form method="post" action="__URL__/setissue" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone);">
+		<input type='hidden' name="act" value="dopost" />
+		<input type='hidden' name="lotteryid" value="{$lotteryid}" />
+		<input type='hidden' name="source" value="{$source}" />
+		<div class="pageFormContent" layoutH="56">
+			<p style="width:100%;">
+				<label style="text-align:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;玩法编号：</label>
+				<label style="width:200px;">{$lotteryid}</label>
+			</p>
+			<p style="width:100%;">
+				<label style="text-align:right">设置状态：</label>
+				<select class="combox" name="playstatus" id="playstatus">
+			    	<option value="0" <if condition="$playstatus eq '0' ">selected="selected"</if>>正常销售</option> 
+					<option value="1" <if condition="$playstatus eq '1' ">selected="selected"</if>>临时关闭</option>      
+        		</select>
+			</p>
+			
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li>
+					<div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>
+
+<else />
+<form id="pagerForm" method="post" action="__URL__/setissue"></form>
+<div class="pageContent">
+	<div eventtype="click" currentindex="0" class="tabs">
+		<div class="tabsHeader">
+			<div class="tabsHeaderContent">
+				<ul>
+					<li class="selected"><a href="javascript:;"><span>B2C管理</span></a></li>
+					<li class=""><a href="javascript:;"><span>B2B管理</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="tabsContent">
+			<div style="display: block;" inited="1000">
+				<table class="list" width="100%" layoutH="100">
+					<thead>
+						<tr style="text-align:center">
+							<th width="80">序号</th>
+							<th width="60">玩法名称</th>
+							<th width="120">销售状态</th>
+							<th width="120">修改状态</th>
+						</tr>
+					</thead>
+					<tbody>
+					    <foreach name="play_list" item="pl">
+					    <tr height="30" style="text-align:center">
+							<td>{$pl.lotteryid}</td>
+							<td>{$pl.description}</td>
+							<td>{$pl.salestatue}</td>
+							<td><a style="color:#0033ff" href="__URL__/setissue?recid={$pl.lotteryid}^{$pl.description}^b2c&act=set" target="dialog" height="300" width="380" title="修改状态">设置</a></td>
+						</tr>
+						</foreach>
+					</tbody>
+				</table>
+			</div>
+			 <div style="display: none;" inited="1000">
+				<table class="list" width="100%" layoutH="100">
+					<thead>
+						<tr style="text-align:center">
+							<th width="80">序号</th>
+							<th width="60">玩法名称</th>
+							<th width="120">销售状态</th>
+							<th width="120">修改状态</th>
+						</tr>
+					</thead>
+					<tbody>
+					    <foreach name="play_list2" item="pl2">
+					    <tr height="30" style="text-align:center">
+							<td>{$pl2.lotteryid}</td>
+							<td>{$pl2.description}</td>
+							<td>{$pl2.salestatue}</td>
+							<td><a style="color:#0033ff" href="__URL__/setissue?recid={$pl2.lotteryid}^{$pl2.description}^b2b&act=set" target="dialog" height="300" width="380" title="修改状态">设置</a></td>
+						</tr>
+						</foreach>
+					</tbody>
+				</table>
+				
+			</div>
+		</div>
+		<div class="tabsFooter">
+			<div class="tabsFooterContent"></div>
+		</div>
+	</div>
+</div>
+
+</if>
