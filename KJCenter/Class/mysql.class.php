@@ -57,9 +57,9 @@ class MySQL{
 	
 	private function connect(){
 		$server = $this->db_mysql_hostname.':'.$this->db_mysql_port;
-		$this->conn = mysql_connect($server,$this->db_mysql_username,$this->db_mysql_password,true) or die('Connect MySQL DB error!');
-		mysql_select_db($this->db_mysql_database,$this->conn) or die('select db error!');
-		mysql_query("set names " . $this->db_mysql_charset, $this->conn);
+		$this->conn = mysqli_connect($server,$this->db_mysql_username,$this->db_mysql_password,true) or die('Connect MySQL DB error!');
+		mysqli_select_db($this->db_mysql_database,$this->conn) or die('select db error!');
+		mysqli_query("set names " . $this->db_mysql_charset, $this->conn);
 	}
 	/**
      +----------------------------------------------------------
@@ -240,13 +240,13 @@ class MySQL{
         
         $this->query_start_time = microtime(true);
         
-        $this->queryID = mysql_query($sql, $this->conn);
+        $this->queryID = mysqli_query($sql, $this->conn);
         $this->query_count++;
         if ( false === $this->queryID ) {
             $this->error();
             return false;
         } else {
-            $this->numRows = mysql_num_rows($this->queryID);
+            $this->numRows = mysqli_num_rows($this->queryID);
             return $this->getAll();
         }
     }
@@ -267,13 +267,13 @@ class MySQL{
         
         $this->query_start_time = microtime(true);
         
-        $result =   mysql_query($sql, $this->conn) ;
+        $result =   mysqli_query($sql, $this->conn) ;
         $this->query_count++;
         if ( false === $result) {
             $this->error();
             return false;
         } else {
-            $this->numRows = mysql_affected_rows($this->conn);
+            $this->numRows = mysqli_affected_rows($this->conn);
             return $this->numRows;
         }
     }
@@ -289,10 +289,10 @@ class MySQL{
         //返回数据集
         $result = array();
         if($this->numRows >0) {
-            while($row = mysql_fetch_assoc($this->queryID)){
+            while($row = mysqli_fetch_assoc($this->queryID)){
                 $result[]   =   $row;
             }
-            mysql_data_seek($this->queryID,0);
+            mysqli_data_seek($this->queryID,0);
         }
         return $result;
     }
@@ -351,7 +351,7 @@ class MySQL{
      +----------------------------------------------------------
      */
 	 public function last_insert_id(){
-        return mysql_insert_id($this->conn);
+        return mysqli_insert_id($this->conn);
     }
     /**
      * 执行一条带有结果集计数的
@@ -370,7 +370,7 @@ class MySQL{
      */
     public function startTrans() {
         if ($this->transTimes == 0) {
-            mysql_query('START TRANSACTION', $this->conn);
+            mysqli_query('START TRANSACTION', $this->conn);
         }
         $this->transTimes++;
         return ;
@@ -388,7 +388,7 @@ class MySQL{
     public function commit()
     {
         if ($this->transTimes > 0) {
-            $result = mysql_query('COMMIT', $this->conn);
+            $result = mysqli_query('COMMIT', $this->conn);
             $this->transTimes = 0;
             if(!$result){
                 throw new Exception($this->error());
@@ -409,7 +409,7 @@ class MySQL{
     public function rollback()
     {
         if ($this->transTimes > 0) {
-            $result = mysql_query('ROLLBACK', $this->conn);
+            $result = mysqli_query('ROLLBACK', $this->conn);
             $this->transTimes = 0;
             if(!$result){
                 throw new Exception($this->error());
@@ -427,7 +427,7 @@ class MySQL{
      +----------------------------------------------------------
      */
 	 public function error() {
-        $this->error = mysql_error($this->conn);
+        $this->error = mysqli_error($this->conn);
         if('' != $this->queryStr){
             $this->error .= "\n [ SQL语句 ] : ".$this->queryStr;
         }
@@ -441,7 +441,7 @@ class MySQL{
      +----------------------------------------------------------
      */
     public function free() {
-        @mysql_free_result($this->queryID);
+        @mysqli_free_result($this->queryID);
         $this->queryID = 0;
         $this->query_list = null;
     }
@@ -455,7 +455,7 @@ class MySQL{
      +----------------------------------------------------------
      */
 	function close(){
-		if ($this->conn && !mysql_close($this->conn)){
+		if ($this->conn && !mysqli_close($this->conn)){
             throw new Exception($this->error());
         }
         $this->conn = 0;
