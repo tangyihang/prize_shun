@@ -35,6 +35,7 @@ class Resultfootball extends Base{
       curl_setopt($ch, CURLOPT_URL, $url);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
       curl_setopt($ch, CURLOPT_HEADER, 0);
+      curl_setopt($ch, CURLOPT_ENCODING, "gzip");
       $html = curl_exec($ch);
       curl_close($ch);
       if($this->charset != 'UTF-8'){
@@ -51,8 +52,8 @@ class Resultfootball extends Base{
       preg_match_all($parten,trim($match[0][0]),$match2);
       $newresult=array();
       $i=0;
-    
-      
+
+
       foreach($match2[0] as $val){
          
           preg_match_all($parten_td, $val, $matchtd);
@@ -66,7 +67,7 @@ class Resultfootball extends Base{
                     $str = trim($str); 
                    $temp[$key]= $str;
               }
-              
+              var_dump($temp);
               if(preg_match('/完/',$temp[4])){
               
   
@@ -86,7 +87,6 @@ class Resultfootball extends Base{
               } 
           }
       }
-      //print_r($newresult); 
       foreach($newresult as $val){
         $this->saveToDB($val);
       }

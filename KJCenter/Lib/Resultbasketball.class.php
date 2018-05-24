@@ -50,7 +50,7 @@ class Resultbasketball extends Base{
     	{
 		  $temp1=preg_split('@[-\/]@',$val[22]);
     	  $temp2=preg_split('@[-\/]@',$val[23]);
-    		list($lotttime,$ballid)=$this->ballidto(iconv('UTF-8','GBK',$val[26]));
+    		list($lotttime,$ballid)=$this->ballidto($val[26]);
     	  $macth['ballid']=$ballid;
           $status=$val[0]==11 ? '-1':'1';
     	  $macth['status']=$status;
@@ -133,7 +133,7 @@ class Resultbasketball extends Base{
     	foreach($newresult as $val){
     		 
     		$idata=array();
-    		list($lotttime,$ballid)=$this->ballidto(iconv('UTF-8','GBK',$val['ballid']));
+    		list($lotttime,$ballid)=$this->ballidto($val['ballid']);
     		$idata['lotteryid']='';
     		$idata['lotttime'] = $lotttime;
     		$idata['ballid'] = $ballid;
@@ -149,7 +149,7 @@ class Resultbasketball extends Base{
 			$idata['result']='';
 
 
-    		if(preg_match($fparten,iconv('UTF-8','GBK',$val['status']))){
+    		if(preg_match($fparten, $val['status'])){
     			$idata['status']='-1';
 				
 				//比赛只有2场的情况
@@ -220,9 +220,9 @@ class Resultbasketball extends Base{
 
     	for($i=0;$i<count($lantemplist);$i++)
     	{
-    	  $info=$this->ballidto(iconv('UTF-8','GBK',$this->strformat($lantemplist[$i][0])));
-    	  $newlist[$i]['lotttime']=$info[0];
-    	  $newlist[$i]['ballid']=$info[1];
+    	  $info=$this->ballidto($this->strformat($lantemplist[$i][0]));
+    	  $newlist[$i]['lotttime']=$this->strformat($info[0]);
+    	  $newlist[$i]['ballid']=$this->strformat($info[1]);
     	  $newlist[$i]['first_score']=intval($this->strformat($lantemplist[$i][4])).":".intval($this->strformat($lantemplist2[$i][2]));
     	  $newlist[$i]['two_score']=intval($this->strformat($lantemplist[$i][5])).":".intval($this->strformat($lantemplist2[$i][3]));
     	  $newlist[$i]['three_score']=intval($this->strformat($lantemplist[$i][6])).":".intval($this->strformat($lantemplist2[$i][4]));
@@ -233,9 +233,8 @@ class Resultbasketball extends Base{
     	  $newlist[$i]['add_score']=intval($hadd_score).":".intval($vadd_score);
 		  
 		  $newlist[$i]['full_score']=intval($this->strformat($lantemplist[$i][9])).":".intval($this->strformat($lantemplist2[$i][7]));
-    	  $newlist[$i]['status']=iconv('UTF-8','GBK',$this->strformat($lantemplist[$i][2]));
+    	  $newlist[$i]['status']=$this->strformat($lantemplist[$i][2]);
     	  $fparten="@^完$@";
-    	 
     	 if(preg_match($fparten,$this->strformat($newlist[$i]['status']))){
       	   $newlist[$i]['status']='-1';
       	 }else{
@@ -384,7 +383,6 @@ class Resultbasketball extends Base{
   	$cnweekarr=array(0=>'周日',1=>'周一',2=>'周二',3=>'周三',4=>'周四',5=>'周五',6=>'周六');
   	$cnweek=preg_replace('@\d+@','',$str);
 
-  	
   	foreach($cnweekarr as $key=> $val){
   	  if($val==$cnweek){
   	     $week=$key;	
