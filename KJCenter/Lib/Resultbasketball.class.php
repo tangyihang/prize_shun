@@ -350,11 +350,13 @@ class Resultbasketball extends Base{
 				'four_score' => $data['four_score'],
 			    'add_score' => $data['add_score'],
 				'full_score' => $data['full_score'],
-				'match_starttime' => $data['match_starttime'],
 				'result' => $data['result'],
 				'addtime' => date('Y-m-d H:i:s',time()),
 				'status' => $data['status']
             );
+             if (!empty($data['match_starttime'])) {
+                 $arr['match_starttime'] = $data['match_starttime'];
+             }
             $sql="select * from tab_lottery_result_lancai where lotttime='".$arr['lotttime']."' and ballid='".$arr['ballid']."' and source='".$arr['source']."'";
 			$num =$this->DB->execute($sql);
 		    if(!$num)
